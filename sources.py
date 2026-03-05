@@ -1,16 +1,95 @@
+# sources.py
 from __future__ import annotations
 
 import hashlib
+import html
+import re
 import time
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Iterable, List, Optional
+from typing import List, Optional
+from urllib.parse import urlparse, urlunparse
 
 import feedparser
 import requests
-from bs4 import BeautifulSoup
 
 from models import CandidateArtist, Evidence
+
+
+# Domains we consider "music links" for v1.
+# Add/remove to taste.
+ALLOWED_MUSIC_DOMAINS = {
+    "bandcamp.com",
+    "soundcloud.com",
+    "youtube.com",
+    "youtu.be",
+    "open.spotify.com",
+    "spotify.com",
+    "music.apple.com",
+    "audiomack.com",
+    "mixcloud.com",
+}
+
+
+# Common Reddit post title noise tags/prefixes
+TITLE_PREFIX_PATTERNS = [
+    r"^\s*\[.*?\]\s*",             # [FRESH], [PREMIERE], etc.
+    r"^\s*\(.*?\)\s*",             # (Official Video), etc.
+    r"^\s*premiere\s*:\s*",        # PREMIERE:
+    r"^\s*exclusive\s*:\s*",       # Exclusive:
+    r"^\s*new\s*:\s*",             # New:
+    r"^\s*video\s*:\s*",           # Video:
+]
+
+
+def _strip_title_noise(title: str) -> str:
+    t = title.strip()
+    # Remove repeated leading noise
+    changed = True
+    while changed:
+        changed = False
+        for pat in TITLE_PREFIX_PATTERNS:
+            new = re.sub(pat, "", t, flags=re.IGNORECASE)
+            if new != t:
+                t = new.strip()
+                changed = True
+    return t
+
+
+def _extract_artist_from_title(title: str) -> Optional[str]:
+    """
+    Heuristic extraction from common patterns:
+      Artist – Track
+      Artist - Track
+      Artist: Track
+      Artist | Track
+    Falls back to None if it looks like a discussion/request.
+    """
+    t = _strip_title_noise(title)
+
+    # Filter obvious non-music/discussion posts
+    lower = t.lower()
+    non_music_markers = [
+        "looking for", "help me find", "help identify", "what is this song",
+        "anyone know", "recommendations", "discussion", "question", "playlist",
+        "tour", "ticket", "gig", "bassist", "drummer", "singer wanted"
+    ]
+    if any(m in lower for m in non_music_markers):
+        return None
+
+    # Split on separators that often divide artist and track
+    for sep in [" – ", " - ", ": ", " | "]:
+        if sep in t:
+            left = t.split(sep, 1)[0].strip()
+            # Avoid tiny garbage
+            if len(left) >= 2 and len(left) <= 80:
+                return left
+
+    # If no separator, avoid treating whole long title as an artist
+    if 2 <= len(t) <= 40:
+        return t
+
+    return None
 
 
 def _canonical_id_from_url(url: str) -> str:
@@ -21,6 +100,57 @@ def _canonical_id_from_name(name: str) -> str:
     norm = "".join(ch.lower() for ch in name.strip() if ch.isalnum() or ch.isspace())
     h = hashlib.sha256(norm.encode("utf-8")).hexdigest()[:16]
     return f"namehash|{h}"
+
+
+def _normalize_url(raw_url: str) -> str:
+    """
+    Normalize URLs so dedupe is consistent:
+    - HTML-unescape (&amp; -> &)
+    - Trim whitespace
+    - Remove fragments (#...)
+    """
+    if not raw_url:
+        return ""
+
+    u = html.unescape(raw_url.strip())
+
+    # Fix relative Reddit paths
+    if u.startswith("/"):
+        u = "https://www.reddit.com" + u
+
+    try:
+        p = urlparse(u)
+        # Drop fragment
+        p = p._replace(fragment="")
+        # Normalize netloc to lowercase
+        netloc = (p.netloc or "").lower()
+        p = p._replace(netloc=netloc)
+
+        # Some sources may omit scheme; if so, keep as-is
+        if not p.scheme:
+            return u
+
+        return urlunparse(p)
+    except Exception:
+        return u
+
+
+def _is_allowed_music_link(url: str) -> bool:
+    """
+    Gate candidates to posts that point to a music platform (or a subdomain of one).
+    """
+    if not url:
+        return False
+    try:
+        p = urlparse(url)
+        host = (p.netloc or "").lower()
+        # Exact match or subdomain match
+        for dom in ALLOWED_MUSIC_DOMAINS:
+            if host == dom or host.endswith("." + dom):
+                return True
+        return False
+    except Exception:
+        return False
 
 
 @dataclass
@@ -51,8 +181,8 @@ class BaseSource:
 
 class RSSSource(BaseSource):
     """
-    Safe default: RSS feeds from blogs/labels/curators.
-    You provide an RSS URL; we extract candidate artists from titles.
+    Safe default: RSS feeds.
+    v1 extraction is still title-based; you can add per-feed parsing later.
     """
     def __init__(self, source_id: str, rss_url: str):
         self.source_id = source_id
@@ -62,19 +192,19 @@ class RSSSource(BaseSource):
         feed = feedparser.parse(self.rss_url)
         cands: List[CandidateArtist] = []
 
-        # cursor could be "last_seen_published"
         for entry in feed.entries[:50]:
-            published = entry.get("published") or entry.get("updated") or ""
-            link = entry.get("link") or ""
-            title = entry.get("title") or ""
-
-            # naive heuristic: assume "Artist – Track" or "Artist: ..."
-            artist_name = title.split("–")[0].split("-")[0].split(":")[0].strip()
-            if not artist_name or len(artist_name) < 2:
+            link = _normalize_url(entry.get("link") or "")
+            title = (entry.get("title") or "").strip()
+            if not title:
                 continue
 
+            artist_name = _extract_artist_from_title(title)
+            if not artist_name:
+                continue
+
+            # RSS links can be non-music pages; we don't gate RSS by default.
             canonical = _canonical_id_from_url(link) if link else _canonical_id_from_name(artist_name)
-            primary_url = link if link else ""
+            primary_url = link
 
             ev = Evidence(
                 source_id=self.source_id,
@@ -97,9 +227,8 @@ class RSSSource(BaseSource):
 
 class RedditJSONSource(BaseSource):
     """
-    Another decent default: subreddit JSON (still respect rate limits).
-    Example endpoint:
-      https://www.reddit.com/r/darkwave/new.json?limit=50
+    Reddit JSON endpoint (be polite and rate-limit).
+    We apply a "music link gate" so you mostly get posts that point to actual music.
     """
     def __init__(self, source_id: str, subreddit: str, limiter: RateLimiter | None = None):
         self.source_id = source_id
@@ -109,22 +238,30 @@ class RedditJSONSource(BaseSource):
     def fetch(self, genres: List[str], cursor: Optional[str]) -> SourceResult:
         self.limiter.wait()
         url = f"https://www.reddit.com/r/{self.subreddit}/new.json?limit=50"
-        headers = {"User-Agent": "new-artist-scout/0.1 (learning project)"}
+        headers = {"User-Agent": "new-artist-scout/0.2 (learning project; respectful rate limits)"}
         resp = requests.get(url, headers=headers, timeout=20)
         resp.raise_for_status()
         data = resp.json()
 
         cands: List[CandidateArtist] = []
+        today = datetime.now().date().isoformat()
 
         for child in data.get("data", {}).get("children", []):
             post = child.get("data", {})
-            title = post.get("title") or ""
-            permalink = "https://www.reddit.com" + (post.get("permalink") or "")
-            outbound = post.get("url") or permalink
+            title = (post.get("title") or "").strip()
+            if not title:
+                continue
 
-            # naive: take first chunk as artist-ish
-            artist_name = title.split("–")[0].split("-")[0].split(":")[0].strip()
-            if not artist_name or len(artist_name) < 2:
+            permalink = _normalize_url("https://www.reddit.com" + (post.get("permalink") or ""))
+            outbound = _normalize_url(post.get("url") or "")
+
+            # Gate: only keep posts with an outbound music-platform link
+            # If outbound is just the Reddit permalink (self-post), skip.
+            if not _is_allowed_music_link(outbound):
+                continue
+
+            artist_name = _extract_artist_from_title(title)
+            if not artist_name:
                 continue
 
             canonical = _canonical_id_from_url(outbound) if outbound else _canonical_id_from_name(artist_name)
@@ -132,7 +269,7 @@ class RedditJSONSource(BaseSource):
             ev = Evidence(
                 source_id=self.source_id,
                 url=permalink,
-                date=datetime.now().date().isoformat(),
+                date=today,
                 title=title[:200],
             )
 
@@ -141,7 +278,7 @@ class RedditJSONSource(BaseSource):
                 canonical_id=canonical,
                 primary_url=outbound,
                 evidence=[ev],
-                notes="From Reddit title heuristic; verify link.",
+                notes="From Reddit title heuristic; outbound link gated to music platforms.",
             ))
 
         return SourceResult(candidates=cands, cursor=None)

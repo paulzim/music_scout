@@ -24,8 +24,7 @@ def dedupe_new_candidates(snap: MemorySnapshot, candidates: List[CandidateArtist
     new: List[CandidateArtist] = []
     for c in candidates:
         if c.canonical_id in existing:
-            # For v1 simplicity, we don't update last_seen here.
-            # You can add that later (it’s a good enhancement).
+            # Optional enhancement later: update last_seen + append evidence
             continue
         new.append(c)
     return new
@@ -35,15 +34,22 @@ def persist_candidates(
     snap: MemorySnapshot,
     candidates: List[CandidateArtist],
     enriched_map: dict | None = None,
+    skipped_ids: set | None = None,
 ) -> None:
+    """
+    Persist candidates. Only writes llm_enrichment when present.
+    If candidate enrichment was intentionally skipped, write a small marker
+    instead of {} so it's obvious what happened.
+    """
     today = datetime.now().date().isoformat()
     enriched_map = enriched_map or {}
+    skipped_ids = skipped_ids or set()
 
     for c in candidates:
-        enrich = enriched_map.get(c.canonical_id, {})
+        enrich = enriched_map.get(c.canonical_id)
 
-        snap.artist_registry[c.canonical_id] = {
-            "name": enrich.get("normalized_name", c.name),
+        record = {
+            "name": (enrich.get("normalized_name") if isinstance(enrich, dict) else None) or c.name,
             "primary_url": c.primary_url,
             "first_seen": today,
             "last_seen": today,
@@ -51,8 +57,14 @@ def persist_candidates(
             "evidence": [ev.__dict__ for ev in c.evidence],
             "status": "candidate",
             "notes": c.notes,
-            "llm_enrichment": enrich,
         }
+
+        if isinstance(enrich, dict) and enrich:
+            record["llm_enrichment"] = enrich
+        elif c.canonical_id in skipped_ids:
+            record["llm_enrichment"] = {"skipped": True, "reason": "budget_clamp"}
+
+        snap.artist_registry[c.canonical_id] = record
 
 
 def update_ledger(snap: MemorySnapshot, source_id: str, cursor: str | None, status: str = "ok", notes: str | None = None):
@@ -65,8 +77,6 @@ def update_ledger(snap: MemorySnapshot, source_id: str, cursor: str | None, stat
 
 
 def build_sources() -> List:
-    # Safe-ish starting point: Reddit JSON endpoints with a polite user-agent and rate limiting.
-    # Add RSS sources later (recommended).
     return [
         RedditJSONSource("reddit:darkwave", "darkwave"),
         RedditJSONSource("reddit:postpunk", "postpunk"),
@@ -77,40 +87,57 @@ def build_sources() -> List:
 def enrich_candidates_with_llm(
     snap: MemorySnapshot,
     new_candidates: List[CandidateArtist],
-) -> dict:
+    max_enrich: int = 30,
+) -> tuple[dict, set]:
     """
-    Enrich candidates using a local OpenAI-compatible server (LM Studio).
-    Stores structured enrichment + copies genre guesses and a short rationale into the candidate fields.
+    Enrich a limited number of candidates using local LM Studio.
+    Returns: (enriched_map, skipped_ids)
     """
-    # Defaults tuned for LM Studio and your model name
     llm_base_url = os.getenv("LLM_BASE_URL", "http://localhost:1234/v1")
     llm_model = os.getenv("LLM_MODEL", "google_gemma-3-1b-it")
     llm_api_key = os.getenv("LLM_API_KEY", "lm-studio")
 
     client = LocalOpenAIClient(base_url=llm_base_url, api_key=llm_api_key, model=llm_model)
 
-    enriched_map: dict = {}
+    # Prefer enriching the best candidates first (quick heuristic):
+    # - those with a non-empty primary_url
+    # - those with evidence titles (usually indicates music posts)
+    def _priority(c: CandidateArtist) -> int:
+        score = 0
+        if c.primary_url:
+            score += 2
+        if any(ev.title for ev in c.evidence):
+            score += 1
+        return score
 
-    # Clamp to avoid runaway time if sources return a ton of posts
-    for c in new_candidates[:40]:
+    ordered = sorted(new_candidates, key=_priority, reverse=True)
+
+    enriched_map: dict = {}
+    skipped_ids: set = set()
+
+    for i, c in enumerate(ordered):
+        if i >= max_enrich:
+            skipped_ids.add(c.canonical_id)
+            continue
+
         enrich = enrich_candidate(client, snap.user_profile.genres, c)
         enriched_map[c.canonical_id] = enrich
 
         # Copy back into candidate so ranking + shortlist uses it
         c.genres_detected = enrich.get("genre_guesses", []) or []
-        why = enrich.get("why_match", "unknown")
+        why = enrich.get("why_match", "Title-based match only; needs verification.")
         conf = enrich.get("confidence", "low")
+
         c.notes = (c.notes or "").strip()
         suffix = f"LLM: {why} (conf: {conf})"
         c.notes = f"{c.notes} | {suffix}" if c.notes else suffix
 
-    return enriched_map
+    return enriched_map, skipped_ids
 
 
 def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
     snap = load_memory(memory_path)
 
-    # Set/refresh genres for this run
     if genres:
         snap.user_profile.genres = genres
         snap.user_profile.last_confirmed = datetime.now().date().isoformat()
@@ -133,16 +160,16 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
 
     new_candidates = dedupe_new_candidates(snap, all_candidates)
 
-    # LLM enrichment (local)
     enriched_map = {}
+    skipped_ids: set = set()
+
     if new_candidates:
         try:
-            enriched_map = enrich_candidates_with_llm(snap, new_candidates)
+            enriched_map, skipped_ids = enrich_candidates_with_llm(snap, new_candidates, max_enrich=30)
         except Exception as e:
-            # Keep the run working even if LLM is down
             print(f"[warn] LLM enrichment failed: {e}")
 
-    persist_candidates(snap, new_candidates, enriched_map)
+    persist_candidates(snap, new_candidates, enriched_map=enriched_map, skipped_ids=skipped_ids)
 
     scored = score_candidates(snap.user_profile, new_candidates)
     out = write_shortlist(output_path, scored, top_n=top_n)
