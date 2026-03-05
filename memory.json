@@ -17,19 +17,19 @@
   "conversation_summary": "Weekly emerging-artist scouting. DIY/indie focus. Track provenance and avoid repeats.",
   "crawl_ledger": {
     "reddit:darkwave": {
-      "last_checked": "2026-03-05T13:57:28.833695",
+      "last_checked": "2026-03-05T14:08:08.885432",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:postpunk": {
-      "last_checked": "2026-03-05T13:57:30.127544",
+      "last_checked": "2026-03-05T14:08:10.016783",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:shoegaze": {
-      "last_checked": "2026-03-05T13:57:31.972243",
+      "last_checked": "2026-03-05T14:08:11.210689",
       "cursor": null,
       "status": "ok",
       "notes": null
@@ -93,8 +93,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -132,8 +136,16 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 3,
+      "seen_count": 5,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -201,8 +213,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -236,8 +252,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -271,8 +291,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -306,8 +330,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -341,8 +369,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -376,8 +408,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -413,8 +449,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -448,8 +488,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -483,8 +527,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -574,8 +622,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -609,8 +661,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -644,8 +700,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -707,8 +767,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -802,8 +866,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -867,8 +935,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -906,8 +978,16 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 3,
+      "seen_count": 5,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -945,8 +1025,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -980,8 +1064,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -1015,8 +1103,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -1080,8 +1172,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -1171,8 +1267,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -1292,8 +1392,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -1355,8 +1459,12 @@
         "confidence": "medium",
         "needs_human_check": true
       },
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -1434,8 +1542,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -1567,8 +1679,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1646,8 +1762,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1671,8 +1791,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1714,8 +1838,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1757,8 +1885,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1782,8 +1914,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1807,8 +1943,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1832,8 +1972,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1857,8 +2001,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1900,8 +2048,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1925,8 +2077,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1950,8 +2106,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -1975,8 +2135,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2000,8 +2164,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2061,8 +2229,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2104,8 +2276,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2129,8 +2305,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2154,8 +2334,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2179,8 +2363,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2258,8 +2446,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2283,8 +2475,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2308,8 +2504,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2351,8 +2551,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2376,8 +2580,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2401,8 +2609,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2444,8 +2656,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2505,8 +2721,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -2674,8 +2894,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -2843,8 +3067,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -2886,8 +3114,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -2929,8 +3161,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -2972,8 +3208,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3051,8 +3291,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3256,8 +3500,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3281,8 +3529,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3360,8 +3612,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3403,8 +3659,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3446,8 +3706,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3525,8 +3789,12 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {},
-      "seen_count": 2,
+      "seen_count": 3,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
@@ -3592,8 +3860,12 @@
       "primary_url": "https://youtube.com/watch?v=m2KKIN8ptKI&si=h-jkClC10Kr9oXAS",
       "first_seen": "2026-03-05",
       "last_seen": "2026-03-05",
-      "seen_count": 1,
+      "seen_count": 2,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -3627,8 +3899,12 @@
       "primary_url": "https://www.youtube.com/watch?v=Cj-GgXKl_oc&list=LL&index=1",
       "first_seen": "2026-03-05",
       "last_seen": "2026-03-05",
-      "seen_count": 1,
+      "seen_count": 2,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -3662,8 +3938,12 @@
       "primary_url": "https://www.youtube.com/watch?v=zIA0N8XJTYY&list=RDzIA0N8XJTYY&start_radio=1",
       "first_seen": "2026-03-05",
       "last_seen": "2026-03-05",
-      "seen_count": 1,
+      "seen_count": 2,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -3697,8 +3977,12 @@
       "primary_url": "https://youtube.com/watch?v=6LXBC1DT33k&si=Nym90OsZI9k_-vFr",
       "first_seen": "2026-03-05",
       "last_seen": "2026-03-05",
-      "seen_count": 1,
+      "seen_count": 2,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:darkwave"
@@ -3734,8 +4018,12 @@
       "primary_url": "https://youtube.com/watch?v=1EPGXGiAztw&si=X-siWhHv6DgKRe6s",
       "first_seen": "2026-03-05",
       "last_seen": "2026-03-05",
-      "seen_count": 1,
+      "seen_count": 2,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:postpunk"
@@ -3769,8 +4057,12 @@
       "primary_url": "https://www.youtube.com/watch?v=X_r87uc16dU&list=OLAK5uy_n6e2Hbg2hhxkqUV81eP7luLxxMhOOC8pU",
       "first_seen": "2026-03-05",
       "last_seen": "2026-03-05",
-      "seen_count": 1,
+      "seen_count": 2,
       "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-05",
           "source_id": "reddit:shoegaze"
