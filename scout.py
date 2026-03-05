@@ -4,7 +4,7 @@ from __future__ import annotations
 import argparse
 import os
 from datetime import datetime
-from typing import List
+from typing import List, Tuple
 
 from enrich import enrich_candidate
 from llm_client import LocalOpenAIClient
@@ -19,15 +19,90 @@ DEFAULT_MEMORY_PATH = "memory.json"
 DEFAULT_OUTPUT_PATH = "output/shortlist.md"
 
 
-def dedupe_new_candidates(snap: MemorySnapshot, candidates: List[CandidateArtist]) -> List[CandidateArtist]:
-    existing = set(snap.artist_registry.keys())
-    new: List[CandidateArtist] = []
-    for c in candidates:
-        if c.canonical_id in existing:
-            # Optional enhancement later: update last_seen + append evidence
+def _today() -> str:
+    return datetime.now().date().isoformat()
+
+
+def _now_iso() -> str:
+    return datetime.now().isoformat()
+
+
+def _merge_evidence(existing_evidence: List[dict], new_evidence: List[dict]) -> List[dict]:
+    """
+    Merge evidence lists, avoiding duplicates.
+    Dedup key: (source_id, url, title)
+    """
+    def key(ev: dict) -> tuple:
+        return (
+            (ev.get("source_id") or "").strip(),
+            (ev.get("url") or "").strip(),
+            (ev.get("title") or "").strip(),
+        )
+
+    seen = {key(ev) for ev in (existing_evidence or [])}
+    merged = list(existing_evidence or [])
+
+    for ev in (new_evidence or []):
+        k = key(ev)
+        if k in seen:
             continue
-        new.append(c)
-    return new
+        merged.append(ev)
+        seen.add(k)
+
+    # Optional: cap evidence so the JSON doesn't grow forever
+    # Keep most recent at the end (our merge appends new ones)
+    if len(merged) > 30:
+        merged = merged[-30:]
+
+    return merged
+
+
+def apply_seen_updates(snap: MemorySnapshot, candidates: List[CandidateArtist]) -> Tuple[List[CandidateArtist], int]:
+    """
+    Splits candidates into:
+      - new_candidates: not in registry
+      - existing updates: append evidence + update last_seen in registry
+    Returns (new_candidates, updated_existing_count)
+    """
+    today = _today()
+    updated_existing = 0
+    new_candidates: List[CandidateArtist] = []
+
+    for c in candidates:
+        cid = c.canonical_id
+        if cid not in snap.artist_registry:
+            new_candidates.append(c)
+            continue
+
+        # Update existing record
+        rec = snap.artist_registry.get(cid) or {}
+        rec["last_seen"] = today
+
+        # Merge evidence
+        existing_evidence = rec.get("evidence") or []
+        new_evidence = [ev.__dict__ for ev in c.evidence]
+        rec["evidence"] = _merge_evidence(existing_evidence, new_evidence)
+
+        # Merge genres_detected (only add new ones; don't overwrite)
+        existing_genres = rec.get("genres_detected") or []
+        existing_set = {g.lower() for g in existing_genres if isinstance(g, str)}
+        for g in (c.genres_detected or []):
+            if isinstance(g, str) and g.lower() not in existing_set:
+                existing_genres.append(g)
+                existing_set.add(g.lower())
+        rec["genres_detected"] = existing_genres
+
+        # Notes: keep existing notes; optionally append a tiny marker (optional)
+        # Avoid ballooning notes
+        if isinstance(rec.get("notes"), str) and rec["notes"]:
+            pass
+        else:
+            rec["notes"] = c.notes
+
+        snap.artist_registry[cid] = rec
+        updated_existing += 1
+
+    return new_candidates, updated_existing
 
 
 def persist_candidates(
@@ -37,11 +112,11 @@ def persist_candidates(
     skipped_ids: set | None = None,
 ) -> None:
     """
-    Persist candidates. Only writes llm_enrichment when present.
-    If candidate enrichment was intentionally skipped, write a small marker
-    instead of {} so it's obvious what happened.
+    Persist NEW candidates only (existing ones are handled in apply_seen_updates).
+    Only writes llm_enrichment when present.
+    If candidate enrichment was intentionally skipped, write a marker.
     """
-    today = datetime.now().date().isoformat()
+    today = _today()
     enriched_map = enriched_map or {}
     skipped_ids = skipped_ids or set()
 
@@ -69,7 +144,7 @@ def persist_candidates(
 
 def update_ledger(snap: MemorySnapshot, source_id: str, cursor: str | None, status: str = "ok", notes: str | None = None):
     snap.crawl_ledger[source_id] = {
-        "last_checked": datetime.now().isoformat(),
+        "last_checked": _now_iso(),
         "cursor": cursor,
         "status": status,
         "notes": notes,
@@ -89,19 +164,12 @@ def enrich_candidates_with_llm(
     new_candidates: List[CandidateArtist],
     max_enrich: int = 30,
 ) -> tuple[dict, set]:
-    """
-    Enrich a limited number of candidates using local LM Studio.
-    Returns: (enriched_map, skipped_ids)
-    """
     llm_base_url = os.getenv("LLM_BASE_URL", "http://localhost:1234/v1")
     llm_model = os.getenv("LLM_MODEL", "google_gemma-3-1b-it")
     llm_api_key = os.getenv("LLM_API_KEY", "lm-studio")
 
     client = LocalOpenAIClient(base_url=llm_base_url, api_key=llm_api_key, model=llm_model)
 
-    # Prefer enriching the best candidates first (quick heuristic):
-    # - those with a non-empty primary_url
-    # - those with evidence titles (usually indicates music posts)
     def _priority(c: CandidateArtist) -> int:
         score = 0
         if c.primary_url:
@@ -123,7 +191,7 @@ def enrich_candidates_with_llm(
         enrich = enrich_candidate(client, snap.user_profile.genres, c)
         enriched_map[c.canonical_id] = enrich
 
-        # Copy back into candidate so ranking + shortlist uses it
+        # Copy back for ranking/shortlist
         c.genres_detected = enrich.get("genre_guesses", []) or []
         why = enrich.get("why_match", "Title-based match only; needs verification.")
         conf = enrich.get("confidence", "low")
@@ -140,7 +208,7 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
 
     if genres:
         snap.user_profile.genres = genres
-        snap.user_profile.last_confirmed = datetime.now().date().isoformat()
+        snap.user_profile.last_confirmed = _today()
 
     all_candidates: List[CandidateArtist] = []
 
@@ -158,7 +226,8 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
         except Exception as e:
             update_ledger(snap, source_id, cursor, status="error", notes=str(e))
 
-    new_candidates = dedupe_new_candidates(snap, all_candidates)
+    # NEW: update existing entries (append evidence + last_seen), and keep only truly new candidates
+    new_candidates, updated_existing_count = apply_seen_updates(snap, all_candidates)
 
     enriched_map = {}
     skipped_ids: set = set()
@@ -171,6 +240,7 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
 
     persist_candidates(snap, new_candidates, enriched_map=enriched_map, skipped_ids=skipped_ids)
 
+    # Rank only new candidates for this run's shortlist (keeps output focused)
     scored = score_candidates(snap.user_profile, new_candidates)
     out = write_shortlist(output_path, scored, top_n=top_n)
 
@@ -178,6 +248,7 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
 
     print(f"Candidates fetched: {len(all_candidates)}")
     print(f"New after dedupe:   {len(new_candidates)}")
+    print(f"Existing updated:   {updated_existing_count}")
     print(f"Wrote shortlist:    {out}")
     print(f"Updated memory:     {memory_path}")
 
