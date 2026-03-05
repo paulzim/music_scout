@@ -17,19 +17,19 @@
   "conversation_summary": "Weekly emerging-artist scouting. DIY/indie focus. Track provenance and avoid repeats.",
   "crawl_ledger": {
     "reddit:darkwave": {
-      "last_checked": "2026-03-05T13:39:57.914861",
+      "last_checked": "2026-03-05T13:57:28.833695",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:postpunk": {
-      "last_checked": "2026-03-05T13:39:59.344688",
+      "last_checked": "2026-03-05T13:57:30.127544",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:shoegaze": {
-      "last_checked": "2026-03-05T13:40:00.723770",
+      "last_checked": "2026-03-05T13:57:31.972243",
       "cursor": null,
       "status": "ok",
       "notes": null
@@ -92,7 +92,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/6cyblkTG4S8?si=lmUlm5YVgI8X1ngf": {
       "name": "Lucy Milani",
@@ -104,6 +111,12 @@
         {
           "source_id": "reddit:postpunk",
           "url": "https://www.reddit.com/r/postpunk/comments/1rl4gbv/lucy_milani_horror_wave/",
+          "date": "2026-03-05",
+          "title": "Lucy Milani - Horror Wave"
+        },
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rl4ctj/lucy_milani_horror_wave/",
           "date": "2026-03-05",
           "title": "Lucy Milani - Horror Wave"
         }
@@ -118,7 +131,18 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 3,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/darkwave/comments/1rl1p0b/vazum_chicago_detroit/": {
       "name": "VAZUM Chicago &amp; Detroit",
@@ -176,7 +200,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://on.soundcloud.com/bq0dCoFRLRk98RR04O": {
       "name": "lil runaway",
@@ -204,7 +235,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/1JjGRr1yANs?si=aU2vzPSpppWU160c": {
       "name": "Endless the Echoes",
@@ -232,7 +270,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/FGx6Dt-QK-E?si=4zxGzLvMruH3A3nz": {
       "name": "Ritual Howls",
@@ -260,7 +305,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/C1wlUWDe8Io?si=jYEhYvr8yODSc2kh": {
       "name": "Nightbus",
@@ -288,7 +340,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/G8DYGuEc1fo?si=QRxjXPA00EG8kwnh": {
       "name": "Jet Cemetery",
@@ -316,7 +375,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=Pku_d8oTgCU": {
       "name": "Light Asylum remix",
@@ -346,7 +412,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/i1nn3Mre-hw?si=cUJzVKY1OrX1nOpm": {
       "name": "GHOST COP",
@@ -374,7 +447,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/ICG-UaDRPKg?si=AUY7bjvdWV8ON6A-": {
       "name": "This Eternal Decay",
@@ -402,7 +482,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtube.com/watch?v=-zM0Tdv-fdg&amp;si=yRtM0_DHbsLceM39": {
       "name": "Run",
@@ -486,7 +573,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/-mI8pQVnhn4?si=vGOxydF8jScB8uMd": {
       "name": "The Mystic Underground",
@@ -514,7 +608,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://vacuumnoiserecords.bandcamp.com/track/traduction-fantaisie-de-sous-v-tements-humides-sexuels": {
       "name": "Moisture Man",
@@ -542,7 +643,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=Cj-GgXKl_oc&amp;list=LL&amp;index=1": {
       "name": "bow church",
@@ -598,7 +706,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/darkwave/comments/1rhvsg5/persone_goth_con_cui_fare_amicizia_a_milano/": {
       "name": "Persone goth con cui fare amicizia a Milano",
@@ -686,7 +801,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/darkwave/comments/1rgo8l8/new_goth_punk_tape/": {
       "name": "New goth punk tape",
@@ -744,7 +866,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/zsBNM_hnmUk": {
       "name": "The Ginger Twins",
@@ -756,6 +885,12 @@
         {
           "source_id": "reddit:shoegaze",
           "url": "https://www.reddit.com/r/shoegaze/comments/1rk8cbl/the_ginger_twins_longsdorff/",
+          "date": "2026-03-05",
+          "title": "The Ginger Twins - Longsdorff"
+        },
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rgj4a1/the_ginger_twins_longsdorff/",
           "date": "2026-03-05",
           "title": "The Ginger Twins - Longsdorff"
         }
@@ -770,7 +905,18 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 3,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://youtu.be/e5di5jYI6RU?si=4EpE2EWXpycx5FGB": {
       "name": "Crown of Jesus",
@@ -798,7 +944,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://youtu.be/80bOYm3L1JE?si=x-LOZ3L-yEXSY3-m": {
       "name": "Past Model | Memory",
@@ -826,7 +979,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://blaklight.bandcamp.com/album/leave-a-light-on-maxi-single": {
       "name": "BlakLight",
@@ -854,7 +1014,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|/r/postpunk/comments/1rfdxy6/bassist_looking_for_others_in_seattle/": {
       "name": "bassist looking for others in Seattle",
@@ -912,7 +1079,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/darkwave/comments/1rf0mke/zeu_sympathy/": {
       "name": "Zeu",
@@ -996,7 +1170,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/darkwave/comments/1redkzc/new_goth_synthesizer_punk_tape/": {
       "name": "New goth synthesizer punk tape",
@@ -1110,7 +1291,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/darkwave/comments/1rccc9y/new_song/": {
       "name": "new song",
@@ -1166,7 +1354,14 @@
         "why_match": "From Reddit title heuristic; verify link.",
         "confidence": "medium",
         "needs_human_check": true
-      }
+      },
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|/r/ug_music/comments/1rc0pzy/collabs_hmu/": {
       "name": "Collabs HMU",
@@ -1238,7 +1433,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/darkwave/comments/1rb6xc1/i_have_been_making_music_of_this_genre_for_two/": {
       "name": "I have been making music of this genre for two years and it had never occurred to me to publish any on the internet, today I did.",
@@ -1364,7 +1566,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/postpunk/comments/1rlp6pc/found_this_guy/": {
       "name": "Found this guy",
@@ -1436,7 +1645,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=T2SUs_vxX4o": {
       "name": "Pauline Murray &amp; The Invisible Girls",
@@ -1454,7 +1670,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=TNxm0VZO7l0": {
       "name": "John Cooper Clarke",
@@ -1490,7 +1713,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/postpunk/comments/1rl8re2/ranked_all_33_performances_in_urgh_a_music_war/": {
       "name": "Ranked all 33 performances in Urgh!",
@@ -1526,7 +1756,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/efbafNdOsw4?si=cKFllf3IegFN5oNp": {
       "name": "Urban Verbs",
@@ -1544,7 +1781,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=r-ue7JLkKHM": {
       "name": "Taste Lips",
@@ -1562,7 +1806,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/UeWwzDmZxt8?is=V9sptM2N2Fmp8mHt": {
       "name": "Grauzone",
@@ -1580,7 +1831,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/vJf5ohrZVMI?si=xmv2X0kbnD7s9jxE": {
       "name": "Moist Hands",
@@ -1598,7 +1856,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/postpunk/comments/1rkn2pu/looking_for_song_about_trash/": {
       "name": "Looking for song about trash",
@@ -1634,7 +1899,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=c8de5d7B1C4": {
       "name": "Martha &amp; The Muffins",
@@ -1652,7 +1924,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/FPWEiqHVFGI?list=RDFPWEiqHVFGI": {
       "name": "XTC",
@@ -1670,7 +1949,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/6FXLDUCBccI": {
       "name": "Alter Of Eden",
@@ -1688,7 +1974,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/AQbfRz7to7A?si=umdT-7MWQqDnsbHp": {
       "name": "UK Subs",
@@ -1706,7 +1999,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/postpunk/comments/1rk20z0/computer_station_on_the_hill/": {
       "name": "Computer",
@@ -1760,7 +2060,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://i.redd.it/2r8qm6mh3wmg1.jpeg": {
       "name": "Monochrome Set",
@@ -1796,7 +2103,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/2hoTSoN5NHo?si=9eqdpYV3sgJG_qru": {
       "name": "PiL (Public Image Limited)",
@@ -1814,7 +2128,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/tPR0_8NiNLU?si=DF_i2O2rTqABZYAV": {
       "name": "The Three Johns",
@@ -1832,7 +2153,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/l9BjtT0_KsE?si=UJMRq06U52PGFwfd": {
       "name": "The Pop Group",
@@ -1850,7 +2178,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtube.com/watch?v=1EPGXGiAztw&amp;si=X-siWhHv6DgKRe6s": {
       "name": "Cola",
@@ -1922,7 +2257,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/M6ftPEE7zkY?si=f0OOCjHDjy8E6is6": {
       "name": "Scars",
@@ -1940,7 +2282,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/878P9s5TT-I": {
       "name": "The Field Mice",
@@ -1958,7 +2307,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/postpunk/comments/1rjdb5m/buying_band_tees/": {
       "name": "Buying band tees",
@@ -1994,7 +2350,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://youtu.be/ORithtc17j4?si=yoDAeAyJGrNZ1uUL": {
       "name": "Coil",
@@ -2012,7 +2375,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=posxMfqdgIM": {
       "name": "Einstürzende Neubauten documentary",
@@ -2030,7 +2400,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://i.redd.it/gl7518crkomg1.jpeg": {
       "name": "Je t'aime. Awesome post",
@@ -2066,7 +2443,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/postpunk/comments/1ris8ex/help_me_find_a_songmusic_video/": {
       "name": "Help me find a song/music video",
@@ -2120,7 +2504,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=02FrumTTrRw&amp;list=RD02FrumTTrRw&amp;start_radio=1": {
       "name": "Dreamlike, surreal 80s",
@@ -2282,7 +2673,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/shoegaze/comments/1rlqmka/cool_band/": {
       "name": "Cool band",
@@ -2444,7 +2842,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://bn2tl.bandcamp.com/track/pure-perception-2025-demo-mix": {
       "name": "Hate to self promote but here's the first song of ours",
@@ -2480,7 +2885,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://i.redd.it/dfxe558zj5ng1.jpeg": {
       "name": "New pedal board",
@@ -2516,7 +2928,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://i.redd.it/3gxindrh15ng1.jpeg": {
       "name": "Do we agree that Pink Floyd is the main influence on Just for a Day?",
@@ -2552,7 +2971,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://i.redd.it/fu4htxi2q4ng1.jpeg": {
       "name": "Magnolia Cross",
@@ -2624,7 +3050,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/shoegaze/comments/1rkz7kn/swervedriver_lost_live_video/": {
       "name": "Swervedriver lost live video",
@@ -2822,7 +3255,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://www.youtube.com/watch?v=c2mP5rpwlJ8": {
       "name": "Full Body 2",
@@ -2840,7 +3280,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/shoegaze/comments/1rkhf2z/closest_to_mbv/": {
       "name": "Closest to MBV?",
@@ -2912,7 +3359,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://i.redd.it/buycdz7nnymg1.jpeg": {
       "name": "I made Honeydip’s album cover out of clay",
@@ -2948,7 +3402,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://i.redd.it/17b8uxl8uxmg1.png": {
       "name": "My lovely partner got me my holy grail for Valentine's day",
@@ -2984,7 +3445,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/shoegaze/comments/1rk6ffc/my_current_fav_songs_by_mercury/": {
       "name": "My current fav songs by \"mercury\"",
@@ -3056,7 +3524,14 @@
       ],
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
-      "llm_enrichment": {}
+      "llm_enrichment": {},
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ]
     },
     "url|https://www.reddit.com/r/shoegaze/comments/1rjzf5k/my_band_stoney_point_mn_is_playing_with/": {
       "name": "My band Stoney Point (MN) is playing with Clementine (IL) in two days!",
@@ -3111,6 +3586,218 @@
       "status": "candidate",
       "notes": "From Reddit title heuristic; verify link.",
       "llm_enrichment": {}
+    },
+    "url|https://youtube.com/watch?v=m2KKIN8ptKI&si=h-jkClC10Kr9oXAS": {
+      "name": "The $cience",
+      "primary_url": "https://youtube.com/watch?v=m2KKIN8ptKI&si=h-jkClC10Kr9oXAS",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "seen_count": 1,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [
+        "post-punk"
+      ],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rlop6i/premiere_the_cience_get_what_you_can_get_while/",
+          "date": "2026-03-05",
+          "title": "PREMIERE: The $cience - Get What You Can Get While You Can Get It"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms. | LLM: From Reddit title heuristic; outbound link gated to music platforms. (conf: medium)",
+      "llm_enrichment": {
+        "normalized_name": "The $cience",
+        "genre_guesses": [
+          "post-punk"
+        ],
+        "why_match": "From Reddit title heuristic; outbound link gated to music platforms.",
+        "confidence": "medium",
+        "needs_human_check": true
+      }
+    },
+    "url|https://www.youtube.com/watch?v=Cj-GgXKl_oc&list=LL&index=1": {
+      "name": "bow church",
+      "primary_url": "https://www.youtube.com/watch?v=Cj-GgXKl_oc&list=LL&index=1",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "seen_count": 1,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [
+        "post-punk"
+      ],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ritj59/bow_church_abyss_2026_out_today/",
+          "date": "2026-03-05",
+          "title": "bow church - Abyss [2026 - OUT TODAY]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms. | LLM: From Reddit title heuristic; outbound link gated to music platforms. (conf: medium)",
+      "llm_enrichment": {
+        "normalized_name": "bow church",
+        "genre_guesses": [
+          "post-punk"
+        ],
+        "why_match": "From Reddit title heuristic; outbound link gated to music platforms.",
+        "confidence": "medium",
+        "needs_human_check": true
+      }
+    },
+    "url|https://www.youtube.com/watch?v=zIA0N8XJTYY&list=RDzIA0N8XJTYY&start_radio=1": {
+      "name": "Face To Face & your opinion",
+      "primary_url": "https://www.youtube.com/watch?v=zIA0N8XJTYY&list=RDzIA0N8XJTYY&start_radio=1",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "seen_count": 1,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [
+        "post-punk"
+      ],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rds1f4/face_to_face_your_opinion/",
+          "date": "2026-03-05",
+          "title": "Face To Face &amp; your opinion"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms. | LLM: From Reddit title heuristic; outbound link gated to music platforms. (conf: medium)",
+      "llm_enrichment": {
+        "normalized_name": "Face To Face & your opinion",
+        "genre_guesses": [
+          "post-punk"
+        ],
+        "why_match": "From Reddit title heuristic; outbound link gated to music platforms.",
+        "confidence": "medium",
+        "needs_human_check": true
+      }
+    },
+    "url|https://youtube.com/watch?v=6LXBC1DT33k&si=Nym90OsZI9k_-vFr": {
+      "name": "Dunkle Dynastie",
+      "primary_url": "https://youtube.com/watch?v=6LXBC1DT33k&si=Nym90OsZI9k_-vFr",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "seen_count": 1,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [
+        "post-punk",
+        "darkwave"
+      ],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1raoazr/dunkle_dynastie_gothic_dark_musik/",
+          "date": "2026-03-05",
+          "title": "Dunkle Dynastie, Gothic, dark Musik,"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms. | LLM: From Reddit title heuristic; outbound link gated to music platforms. (conf: medium)",
+      "llm_enrichment": {
+        "normalized_name": "Dunkle Dynastie",
+        "genre_guesses": [
+          "post-punk",
+          "darkwave"
+        ],
+        "why_match": "From Reddit title heuristic; outbound link gated to music platforms.",
+        "confidence": "medium",
+        "needs_human_check": true
+      }
+    },
+    "url|https://youtube.com/watch?v=1EPGXGiAztw&si=X-siWhHv6DgKRe6s": {
+      "name": "Cola",
+      "primary_url": "https://youtube.com/watch?v=1EPGXGiAztw&si=X-siWhHv6DgKRe6s",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "seen_count": 1,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [
+        "post-punk"
+      ],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rjm3zq/cola_hedgesitting_official_music_video/",
+          "date": "2026-03-05",
+          "title": "Cola - Hedgesitting (Official Music Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms. | LLM: From Reddit title heuristic; outbound link gated to music platforms. (conf: medium)",
+      "llm_enrichment": {
+        "normalized_name": "Cola",
+        "genre_guesses": [
+          "post-punk"
+        ],
+        "why_match": "From Reddit title heuristic; outbound link gated to music platforms.",
+        "confidence": "medium",
+        "needs_human_check": true
+      }
+    },
+    "url|https://www.youtube.com/watch?v=X_r87uc16dU&list=OLAK5uy_n6e2Hbg2hhxkqUV81eP7luLxxMhOOC8pU": {
+      "name": "October Language",
+      "primary_url": "https://www.youtube.com/watch?v=X_r87uc16dU&list=OLAK5uy_n6e2Hbg2hhxkqUV81eP7luLxxMhOOC8pU",
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-03-05",
+      "seen_count": 1,
+      "seen_history": [
+        {
+          "date": "2026-03-05",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [
+        "post-punk"
+      ],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rlnems/october_language_belong/",
+          "date": "2026-03-05",
+          "title": "October Language - Belong"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms. | LLM: From Reddit title heuristic; outbound link gated to music platforms. (conf: medium)",
+      "llm_enrichment": {
+        "normalized_name": "October Language",
+        "genre_guesses": [
+          "post-punk"
+        ],
+        "why_match": "From Reddit title heuristic; outbound link gated to music platforms.",
+        "confidence": "medium",
+        "needs_human_check": true
+      }
     }
   }
 }
