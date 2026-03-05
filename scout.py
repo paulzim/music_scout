@@ -49,19 +49,38 @@ def _merge_evidence(existing_evidence: List[dict], new_evidence: List[dict]) -> 
         merged.append(ev)
         seen.add(k)
 
-    # Optional: cap evidence so the JSON doesn't grow forever
-    # Keep most recent at the end (our merge appends new ones)
+    # Cap evidence to keep memory size reasonable
     if len(merged) > 30:
         merged = merged[-30:]
 
     return merged
 
 
+def _append_seen_history(rec: dict, source_id: str) -> None:
+    """
+    Append a tiny history item so you can visualize "momentum" over time.
+    Capped to last 20 entries.
+    """
+    hist = rec.get("seen_history")
+    if not isinstance(hist, list):
+        hist = []
+
+    hist.append({
+        "date": _today(),
+        "source_id": source_id,
+    })
+
+    if len(hist) > 20:
+        hist = hist[-20:]
+
+    rec["seen_history"] = hist
+
+
 def apply_seen_updates(snap: MemorySnapshot, candidates: List[CandidateArtist]) -> Tuple[List[CandidateArtist], int]:
     """
     Splits candidates into:
       - new_candidates: not in registry
-      - existing updates: append evidence + update last_seen in registry
+      - existing updates: append evidence + update last_seen + increment seen_count
     Returns (new_candidates, updated_existing_count)
     """
     today = _today()
@@ -74,9 +93,20 @@ def apply_seen_updates(snap: MemorySnapshot, candidates: List[CandidateArtist]) 
             new_candidates.append(c)
             continue
 
-        # Update existing record
         rec = snap.artist_registry.get(cid) or {}
+
+        # Update last_seen
         rec["last_seen"] = today
+
+        # Increment seen_count (initialize if missing)
+        prev = rec.get("seen_count")
+        if not isinstance(prev, int):
+            prev = 1  # treat the existing record as already "seen" once
+        rec["seen_count"] = prev + 1
+
+        # Append a tiny history record (use first evidence source_id if available)
+        source_id = (c.evidence[0].source_id if c.evidence else "unknown_source")
+        _append_seen_history(rec, source_id)
 
         # Merge evidence
         existing_evidence = rec.get("evidence") or []
@@ -92,11 +122,8 @@ def apply_seen_updates(snap: MemorySnapshot, candidates: List[CandidateArtist]) 
                 existing_set.add(g.lower())
         rec["genres_detected"] = existing_genres
 
-        # Notes: keep existing notes; optionally append a tiny marker (optional)
-        # Avoid ballooning notes
-        if isinstance(rec.get("notes"), str) and rec["notes"]:
-            pass
-        else:
+        # Keep existing notes; only set if missing
+        if not (isinstance(rec.get("notes"), str) and rec["notes"]):
             rec["notes"] = c.notes
 
         snap.artist_registry[cid] = rec
@@ -113,8 +140,7 @@ def persist_candidates(
 ) -> None:
     """
     Persist NEW candidates only (existing ones are handled in apply_seen_updates).
-    Only writes llm_enrichment when present.
-    If candidate enrichment was intentionally skipped, write a marker.
+    Writes seen_count=1 at creation time.
     """
     today = _today()
     enriched_map = enriched_map or {}
@@ -128,6 +154,8 @@ def persist_candidates(
             "primary_url": c.primary_url,
             "first_seen": today,
             "last_seen": today,
+            "seen_count": 1,
+            "seen_history": [{"date": today, "source_id": (c.evidence[0].source_id if c.evidence else "unknown_source")}],
             "genres_detected": c.genres_detected,
             "evidence": [ev.__dict__ for ev in c.evidence],
             "status": "candidate",
@@ -226,7 +254,6 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
         except Exception as e:
             update_ledger(snap, source_id, cursor, status="error", notes=str(e))
 
-    # NEW: update existing entries (append evidence + last_seen), and keep only truly new candidates
     new_candidates, updated_existing_count = apply_seen_updates(snap, all_candidates)
 
     enriched_map = {}
@@ -240,7 +267,6 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
 
     persist_candidates(snap, new_candidates, enriched_map=enriched_map, skipped_ids=skipped_ids)
 
-    # Rank only new candidates for this run's shortlist (keeps output focused)
     scored = score_candidates(snap.user_profile, new_candidates)
     out = write_shortlist(output_path, scored, top_n=top_n)
 
