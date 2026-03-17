@@ -12,24 +12,24 @@
     },
     "regions": [],
     "taste_anchors": [],
-    "last_confirmed": "2026-03-05"
+    "last_confirmed": "2026-03-17"
   },
   "conversation_summary": "Weekly emerging-artist scouting. DIY/indie focus. Track provenance and avoid repeats.",
   "crawl_ledger": {
     "reddit:darkwave": {
-      "last_checked": "2026-03-05T14:08:08.885432",
+      "last_checked": "2026-03-17T12:39:04.421538",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:postpunk": {
-      "last_checked": "2026-03-05T14:08:10.016783",
+      "last_checked": "2026-03-17T12:39:05.681517",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:shoegaze": {
-      "last_checked": "2026-03-05T14:08:11.210689",
+      "last_checked": "2026-03-17T12:39:06.978847",
       "cursor": null,
       "status": "ok",
       "notes": null
@@ -4090,6 +4090,4380 @@
         "confidence": "medium",
         "needs_human_check": true
       }
+    },
+    "url|https://youtu.be/Wtg3JpBiPbY?si=5T-9ZLn2SYvM170V": {
+      "name": "Ariadna",
+      "primary_url": "https://youtu.be/Wtg3JpBiPbY?si=5T-9ZLn2SYvM170V",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvofrp/ariadna_ти_і_я/",
+          "date": "2026-03-16",
+          "title": "Ariadna - Ти і я"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/atRXWcmi1Tw?si=_x0yr7LS3d5ebHJ1": {
+      "name": "PEINE PERDUE",
+      "primary_url": "https://youtu.be/atRXWcmi1Tw?si=_x0yr7LS3d5ebHJ1",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvo5md/peine_perdue_ombre_trouble/",
+          "date": "2026-03-16",
+          "title": "PEINE PERDUE - \"OMBRE TROUBLE\""
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/UtqY7ZmzfLc?si=rv96DqM_tRYMnzJM": {
+      "name": "Milliken Chamber",
+      "primary_url": "https://youtu.be/UtqY7ZmzfLc?si=rv96DqM_tRYMnzJM",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvo0kl/milliken_chamber_bodies_official_video/",
+          "date": "2026-03-16",
+          "title": "Milliken Chamber - Bodies (Official Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/n8htqF0gUkM?si=IaJcldaYdtFlOYAw": {
+      "name": "POTOCHKINE",
+      "primary_url": "https://youtu.be/n8htqF0gUkM?si=IaJcldaYdtFlOYAw",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvn2a9/potochkine_pénurie_de_larmes_official_video/",
+          "date": "2026-03-16",
+          "title": "POTOCHKINE - Pénurie de Larmes (Official video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/02QLB3P4OhA?si=W-FmqakzzC06UJWO": {
+      "name": "Cleopatra the Alchemist",
+      "primary_url": "https://youtu.be/02QLB3P4OhA?si=W-FmqakzzC06UJWO",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvmn96/cleopatra_the_alchemist_covered_in_flies/",
+          "date": "2026-03-16",
+          "title": "Cleopatra the Alchemist - Covered in Flies"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/K7Az68TeY7Q?si=B8tarQDLF7Gvfb0_": {
+      "name": "Kasst",
+      "primary_url": "https://youtu.be/K7Az68TeY7Q?si=B8tarQDLF7Gvfb0_",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ruvva9/kasst_hell_on_earth/",
+          "date": "2026-03-16",
+          "title": "Kasst - Hell On Earth"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/1A7U-rJ9dTM": {
+      "name": "AL1CE",
+      "primary_url": "https://youtu.be/1A7U-rJ9dTM",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ruomhv/al1ce_electrical_official_music_video/",
+          "date": "2026-03-16",
+          "title": "AL1CE - Electrical (Official Music Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/mDnHoqVCnP8": {
+      "name": "Suski Imortella + blood.twin — Ruins",
+      "primary_url": "https://youtu.be/mDnHoqVCnP8",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1runn48/suski_imortella_bloodtwin_ruins/",
+          "date": "2026-03-16",
+          "title": "Suski Imortella + blood.twin — Ruins"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/_Lerkqd5fIA": {
+      "name": "BBO   In War There Are Only Losers Against War Edit",
+      "primary_url": "https://youtu.be/_Lerkqd5fIA",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rujvyt/bbo_in_war_there_are_only_losers_against_war_edit/",
+          "date": "2026-03-16",
+          "title": "BBO   In War There Are Only Losers Against War Edit | Darkwave Industrial 2026"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/VQzJLS8c3RI?si=FRH-8cWLle15D5SQ": {
+      "name": "Psychic TV",
+      "primary_url": "https://youtu.be/VQzJLS8c3RI?si=FRH-8cWLle15D5SQ",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rud9k5/psychic_tv_set_controls_for_the_heart_of_the_sun/",
+          "date": "2026-03-16",
+          "title": "Psychic TV - Set Controls For The Heart Of The Sun"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/jqKMmJFJygg?si=3rUi4zcNHfEPwmo-": {
+      "name": "KAS:ST- You Are Your Own Destruction",
+      "primary_url": "https://youtu.be/jqKMmJFJygg?si=3rUi4zcNHfEPwmo-",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru8sa1/kasst_you_are_your_own_destruction/",
+          "date": "2026-03-16",
+          "title": "KAS:ST- You Are Your Own Destruction"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/dqM7Y1BMp8M?si=JiQXQ8ek0pxjuyjC": {
+      "name": "Careful What You Wish For",
+      "primary_url": "https://youtu.be/dqM7Y1BMp8M?si=JiQXQ8ek0pxjuyjC",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru7qci/careful_what_you_wish_for_coil_silent_prelude/",
+          "date": "2026-03-16",
+          "title": "Careful What You Wish For - Coil - Silent Prelude"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/PtZ5NJYBnkU?si=EhbzpKFmNZLn8rZ0": {
+      "name": "Bedless Bones",
+      "primary_url": "https://youtu.be/PtZ5NJYBnkU?si=EhbzpKFmNZLn8rZ0",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru7l9m/bedless_bones_where_is_my_voice/",
+          "date": "2026-03-16",
+          "title": "Bedless Bones - Where Is My Voice"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/MnrGj0jyNRE?si=fPpPqqodyvPZu8Vn": {
+      "name": "POTOCHKINE",
+      "primary_url": "https://youtu.be/MnrGj0jyNRE?si=fPpPqqodyvPZu8Vn",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru7106/potochkine_possédée_official_video/",
+          "date": "2026-03-16",
+          "title": "POTOCHKINE - Possédée (official video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/gnlZE_FmtMY?si=tQ9RaPBa5qyNwkO6": {
+      "name": "CIRQUE D'ESS",
+      "primary_url": "https://youtu.be/gnlZE_FmtMY?si=tQ9RaPBa5qyNwkO6",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru6to8/cirque_dess_a_spooky_host_official_video/",
+          "date": "2026-03-16",
+          "title": "CIRQUE D'ESS - A Spooky Host (Official Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/5IbpmqcwTIw?si=VcJTpV26mt7VaQo6": {
+      "name": "Amanati x Tianora",
+      "primary_url": "https://youtu.be/5IbpmqcwTIw?si=VcJTpV26mt7VaQo6",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru6c1u/amanati_x_tianora_orama_official_audio_omen_album/",
+          "date": "2026-03-16",
+          "title": "Amanati x Tianora - Orama - Official Audio [Omen Album]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/Q008_iKQHvg?si=Me79KAJJ-kQ4WlcW": {
+      "name": "Kittin &amp; The Hacker",
+      "primary_url": "https://youtu.be/Q008_iKQHvg?si=Me79KAJJ-kQ4WlcW",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru56up/kittin_the_hacker_ostbahnhof_official_music_video/",
+          "date": "2026-03-16",
+          "title": "Kittin &amp; The Hacker - Ostbahnhof (Official Music Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/5VSC0XHK-28?si=Urd-y3f7PrGP9IXG": {
+      "name": "YEARS OF DENIAL",
+      "primary_url": "https://youtu.be/5VSC0XHK-28?si=Urd-y3f7PrGP9IXG",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru4unh/years_of_denial_all_we_ever_wanted_was_everything/",
+          "date": "2026-03-16",
+          "title": "YEARS OF DENIAL - All We Ever Wanted Was Everything [BAUHAUS cover]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/Nk39XCap_Wg?si=KUvja_uikUA_R7cA": {
+      "name": "Blood Orchid",
+      "primary_url": "https://youtu.be/Nk39XCap_Wg?si=KUvja_uikUA_R7cA",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1ru3dcm/blood_orchid_doom_gloom_music_video/",
+          "date": "2026-03-16",
+          "title": "Blood Orchid - Doom &amp; Gloom [Music Video]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/cLEdA4IiJhQ?si=D5i7wFFqoqb8LddS": {
+      "name": "Hypersomnia",
+      "primary_url": "https://youtu.be/cLEdA4IiJhQ?si=D5i7wFFqoqb8LddS",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rtwj9t/hypersomnia_fractured/",
+          "date": "2026-03-16",
+          "title": "Hypersomnia - Fractured"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/yndGfM6ry4M?si=R4cv-44Sczb3UzGl": {
+      "name": "Shadow Colonies",
+      "primary_url": "https://youtu.be/yndGfM6ry4M?si=R4cv-44Sczb3UzGl",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rtkpsd/shadow_colonies_ghost_waves/",
+          "date": "2026-03-16",
+          "title": "Shadow Colonies - Ghost Waves"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtube.com/shorts/Sh2aJi-V-TA?si=ZUgiuzwLoSGkWcxg": {
+      "name": "What if T. Rex was Darkwave?",
+      "primary_url": "https://youtube.com/shorts/Sh2aJi-V-TA?si=ZUgiuzwLoSGkWcxg",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rtje5c/what_if_t_rex_was_darkwave/",
+          "date": "2026-03-16",
+          "title": "What if T. Rex was Darkwave?"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=ilfGsZzSfvc": {
+      "name": "Metamourne",
+      "primary_url": "https://www.youtube.com/watch?v=ilfGsZzSfvc",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rtgojm/metamourne_in_the_crowd/",
+          "date": "2026-03-16",
+          "title": "Metamourne - In the Crowd"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/album/5uBPDp0KSfg482NGvPaNNX?si=Q0So5ytTQCy-5nFrhXxPVw": {
+      "name": "Give My Remains to Broadway",
+      "primary_url": "https://open.spotify.com/album/5uBPDp0KSfg482NGvPaNNX?si=Q0So5ytTQCy-5nFrhXxPVw",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rsyxkr/give_my_remains_to_broadway_forever_awake/",
+          "date": "2026-03-16",
+          "title": "Give My Remains to Broadway - Forever Awake"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/_CRkjTxX1XY": {
+      "name": "blood.twin — ᐸFunctionᐳ_disconnect() ;",
+      "primary_url": "https://youtu.be/_CRkjTxX1XY",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 13,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rshrvq/bloodtwin_ᐸfunctionᐳ_disconnect/",
+          "date": "2026-03-16",
+          "title": "blood.twin — ᐸFunctionᐳ_disconnect() ;"
+        },
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rshpes/bloodtwin_ᐸfunctionᐳ_disconnect/",
+          "date": "2026-03-16",
+          "title": "blood.twin — ᐸFunctionᐳ_disconnect() ;"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/RjEE77i45wA?si=-yNCJu643qmPyASY": {
+      "name": "TRAITRS",
+      "primary_url": "https://youtu.be/RjEE77i45wA?si=-yNCJu643qmPyASY",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rsduwf/traitrs_burn_in_heaven_official_video/",
+          "date": "2026-03-16",
+          "title": "TRAITRS - Burn In Heaven (Official Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/tczBMF-mXPo?si=ce2671xOVD03_OuG": {
+      "name": "THE BEAUTY OF GEMINA",
+      "primary_url": "https://youtu.be/tczBMF-mXPo?si=ce2671xOVD03_OuG",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rs9j5r/the_beauty_of_gemina_prophecy_darkwave/",
+          "date": "2026-03-16",
+          "title": "THE BEAUTY OF GEMINA - PROPHECY [Darkwave]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/vbeyejD2MG4?si=Se_FMqL8ID7ED8BU": {
+      "name": "DEATHSOMNIA",
+      "primary_url": "https://youtu.be/vbeyejD2MG4?si=Se_FMqL8ID7ED8BU",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rs8z5y/deathsomnia_akinesia_official_video/",
+          "date": "2026-03-16",
+          "title": "DEATHSOMNIA - Akinesia (Official Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/EMu6JSu7Tq0?si=8FV6vHwZzYSo9DRw": {
+      "name": "Echoberyl",
+      "primary_url": "https://youtu.be/EMu6JSu7Tq0?si=8FV6vHwZzYSo9DRw",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rs7n3q/echoberyl_twilight_zone_alter_version/",
+          "date": "2026-03-16",
+          "title": "Echoberyl - Twilight Zone (Alter Version)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtube.com/shorts/hwEoJ42UpHs?si=QtiJdnr70ROZjwtk": {
+      "name": "Japanese Industrial / Darkwave",
+      "primary_url": "https://youtube.com/shorts/hwEoJ42UpHs?si=QtiJdnr70ROZjwtk",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rs50yh/japanese_industrial_darkwave_mechanical_dystopian/",
+          "date": "2026-03-16",
+          "title": "Japanese Industrial / Darkwave – mechanical dystopian vibe"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/q-MEtNRWj8s": {
+      "name": "Diorama",
+      "primary_url": "https://youtu.be/q-MEtNRWj8s",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rs2lc9/diorama_in_fragments_a_workshop_concert_film/",
+          "date": "2026-03-16",
+          "title": "Diorama - In Fragments (a Workshop Concert Film)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/70Dt69RonxQ": {
+      "name": "Brighten Up My Life",
+      "primary_url": "https://youtu.be/70Dt69RonxQ",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rryh43/brighten_up_my_life_violent_vickie_mirror_of_haze/",
+          "date": "2026-03-16",
+          "title": "Brighten Up My Life - Violent Vickie &amp; Mirror of Haze [shoegaze, postpunk, darkwave]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=-850HFXre9s": {
+      "name": "Korax MVD",
+      "primary_url": "https://www.youtube.com/watch?v=-850HFXre9s",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rrrh2s/korax_mvd_en_la_tormenta_dark_electronic/",
+          "date": "2026-03-16",
+          "title": "Korax MVD – En la tormenta (Dark Electronic / Industrial, Uruguay)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/hD_ZyYGUb-c?si=4hsMZHgnCHCNp7jn": {
+      "name": "Lucy La Dusk",
+      "primary_url": "https://youtu.be/hD_ZyYGUb-c?si=4hsMZHgnCHCNp7jn",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rrmagk/lucy_la_dusk_despair/",
+          "date": "2026-03-16",
+          "title": "Lucy La Dusk - Despair"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/13riwOEaxkY?si=bDPpVZ-RfkQ0P1yS": {
+      "name": "The Beauty Of Gemina",
+      "primary_url": "https://youtu.be/13riwOEaxkY?si=bDPpVZ-RfkQ0P1yS",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rrjl3u/the_beauty_of_gemina_one_step_to_heaven_2023/",
+          "date": "2026-03-16",
+          "title": "The Beauty Of Gemina - One Step To Heaven 2023 (Official Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/nBxxSujxQOY?si=qnj_xMQeWIicEkDV": {
+      "name": "Tus Lamentos de St. VOID",
+      "primary_url": "https://youtu.be/nBxxSujxQOY?si=qnj_xMQeWIicEkDV",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rqz9s3/tus_lamentos_de_st_void/",
+          "date": "2026-03-16",
+          "title": "Tus Lamentos de St. VOID"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/i_AWmSpelGM": {
+      "name": "Breathless",
+      "primary_url": "https://youtu.be/i_AWmSpelGM",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvnzbw/breathless_sometimes_on_sunday_1989/",
+          "date": "2026-03-16",
+          "title": "Breathless - Sometimes on Sunday (1989)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=G8yzT0LItfU": {
+      "name": "XTC -- Jason And The Argonauts",
+      "primary_url": "https://www.youtube.com/watch?v=G8yzT0LItfU",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvkh9x/xtc_jason_and_the_argonauts/",
+          "date": "2026-03-16",
+          "title": "XTC -- Jason And The Argonauts"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=ctpzzTR15yo": {
+      "name": "Wire -- Three Girl Rhumba",
+      "primary_url": "https://www.youtube.com/watch?v=ctpzzTR15yo",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvkdch/wire_three_girl_rhumba/",
+          "date": "2026-03-16",
+          "title": "Wire -- Three Girl Rhumba"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=MBPhsUfzkiU": {
+      "name": "Talking Heads -- Moon Rocks",
+      "primary_url": "https://www.youtube.com/watch?v=MBPhsUfzkiU",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvjsyh/talking_heads_moon_rocks/",
+          "date": "2026-03-16",
+          "title": "Talking Heads -- Moon Rocks"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=GTDl70FVXnc&list=RDEM7J1xpX9tGSjDGXBf5Dh_Dw&index=13": {
+      "name": "Blue In Heaven",
+      "primary_url": "https://www.youtube.com/watch?v=GTDl70FVXnc&list=RDEM7J1xpX9tGSjDGXBf5Dh_Dw&index=13",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rv6mc1/blue_in_heaven_sometimes_1985/",
+          "date": "2026-03-16",
+          "title": "Blue In Heaven - Sometimes (1985)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/kzIOt-3Ke4w?si=LuXkk0FgIa5xzhoV": {
+      "name": "New Horizon",
+      "primary_url": "https://youtu.be/kzIOt-3Ke4w?si=LuXkk0FgIa5xzhoV",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rv108m/new_horizon/",
+          "date": "2026-03-16",
+          "title": "New Horizon"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/wuZlb2O-8B4?is=4CaNTTz5wLQywT5I": {
+      "name": "Post-punk with skank beat?",
+      "primary_url": "https://youtu.be/wuZlb2O-8B4?is=4CaNTTz5wLQywT5I",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1ruxvmt/postpunk_with_skank_beat/",
+          "date": "2026-03-16",
+          "title": "Post-punk with skank beat?"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://m.youtube.com/watch?v=DQeKlCHdSYE": {
+      "name": "Mephisto Walz",
+      "primary_url": "https://m.youtube.com/watch?v=DQeKlCHdSYE",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rup4x1/mephisto_walz_der_sack/",
+          "date": "2026-03-16",
+          "title": "Mephisto Walz - Der Sack"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/x4_HTHrDSSA?si=agO4i5KfsJ8hGHfo": {
+      "name": "You Never Talk",
+      "primary_url": "https://youtu.be/x4_HTHrDSSA?si=agO4i5KfsJ8hGHfo",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rtx5u0/you_never_talk/",
+          "date": "2026-03-16",
+          "title": "You Never Talk"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/1Vo4pasFdQ8": {
+      "name": "Repo Man",
+      "primary_url": "https://youtu.be/1Vo4pasFdQ8",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rttdm3/repo_man_revisiting_alex_coxs_punk_rock_classic/",
+          "date": "2026-03-16",
+          "title": "Repo Man: Revisiting Alex Cox's Punk Rock Classic"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtube.com/watch?v=lIcRBVpyrcc&si=X4QGyQFn7cL-DONx": {
+      "name": "NOV3L",
+      "primary_url": "https://youtube.com/watch?v=lIcRBVpyrcc&si=X4QGyQFn7cL-DONx",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rtphxc/nov3l_stranger_2021/",
+          "date": "2026-03-16",
+          "title": "NOV3L - Stranger (2021)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/album/5uBPDp0KSfg482NGvPaNNX?si=xjSacUh9Rp2_277OOnaBjg": {
+      "name": "Give My Remains to Broadway",
+      "primary_url": "https://open.spotify.com/album/5uBPDp0KSfg482NGvPaNNX?si=xjSacUh9Rp2_277OOnaBjg",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rtlbj0/give_my_remains_to_broadway_forever_awake/",
+          "date": "2026-03-16",
+          "title": "Give My Remains to Broadway - Forever Awake"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/TVEt1Wwtl04?is=614yBlWdYrvqG8Z7": {
+      "name": "boylotion",
+      "primary_url": "https://youtu.be/TVEt1Wwtl04?is=614yBlWdYrvqG8Z7",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rtkr08/boylotion_all_lies/",
+          "date": "2026-03-16",
+          "title": "boylotion - All Lies"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/ghiOnV9txU8?si=S3zoj-McMcHxMLF_": {
+      "name": "SCRT AGNT",
+      "primary_url": "https://youtu.be/ghiOnV9txU8?si=S3zoj-McMcHxMLF_",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rthe2d/scrt_agnt_tug_live_at_lost_sound/",
+          "date": "2026-03-16",
+          "title": "SCRT AGNT - Tug (Live at Lost &amp; Sound)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/track/7t47Qmv69Cd2i6S2Zn0bGQ?si=dGEesmz-SnmP2i7uFgOsaA": {
+      "name": "DEAD",
+      "primary_url": "https://open.spotify.com/track/7t47Qmv69Cd2i6S2Zn0bGQ?si=dGEesmz-SnmP2i7uFgOsaA",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rt8dkg/dead_you_can_say_what_you_want_you_can_take_what/",
+          "date": "2026-03-16",
+          "title": "DEAD - \"You Can Say What You Want, You Can Take What You Want\""
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=6VTJ01PCrd8": {
+      "name": "Plastic Bertrand",
+      "primary_url": "https://www.youtube.com/watch?v=6VTJ01PCrd8",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rt4jjm/plastic_bertrand_ça_plane_pour_moi_1978/",
+          "date": "2026-03-16",
+          "title": "Plastic Bertrand - Ça Plane Pour Moi (1978)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=o8XaZfJLubI": {
+      "name": "THE SOUND NO NUKES",
+      "primary_url": "https://www.youtube.com/watch?v=o8XaZfJLubI",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rt3b9w/the_sound_no_nukes_does_anyone_happen_to_have_a/",
+          "date": "2026-03-16",
+          "title": "THE SOUND NO NUKES: Does anyone happen to have a lead on the full set of this?"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/TbLFane4m2Q?is=MGAlPa7EomixTe_W": {
+      "name": "The Cure",
+      "primary_url": "https://youtu.be/TbLFane4m2Q?is=MGAlPa7EomixTe_W",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rswdbi/the_cure_a_forest_bass_cover/",
+          "date": "2026-03-16",
+          "title": "The Cure - A Forest BASS COVER"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/mSN6WU7f1Ak?si=tMZYMz49eqi_ynse": {
+      "name": "Red Rakes",
+      "primary_url": "https://youtu.be/mSN6WU7f1Ak?si=tMZYMz49eqi_ynse",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rse3yk/red_rakes_whipping_star/",
+          "date": "2026-03-16",
+          "title": "Red Rakes - whipping star"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=60wQc6bzjCk": {
+      "name": "The Fall -- Telephone Thing",
+      "primary_url": "https://www.youtube.com/watch?v=60wQc6bzjCk",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rs9ocf/the_fall_telephone_thing/",
+          "date": "2026-03-16",
+          "title": "The Fall -- Telephone Thing"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/v8bVT6mRpSg": {
+      "name": "Preoccupations",
+      "primary_url": "https://youtu.be/v8bVT6mRpSg",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rs3pnt/preoccupations_mur_official_music_video/",
+          "date": "2026-03-16",
+          "title": "Preoccupations - MUR (Official Music Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/nRM4udVh2PM?si=G5z99PgFL0o-iGxN": {
+      "name": "Cool band",
+      "primary_url": "https://youtu.be/nRM4udVh2PM?si=G5z99PgFL0o-iGxN",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rveh6s/cool_band/",
+          "date": "2026-03-16",
+          "title": "Cool band"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://vacuumnoiserecords.bandcamp.com/track/--298": {
+      "name": "u v . e x e",
+      "primary_url": "https://vacuumnoiserecords.bandcamp.com/track/--298",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rvdfeh/u_v_e_x_e_私達はいない/",
+          "date": "2026-03-16",
+          "title": "u v . e x e - 私達はいない"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/f7nTjSlCefk?si=X1mwMzt0o9GV61RI": {
+      "name": "I made this song for when you’re going through a difficult time (Strength",
+      "primary_url": "https://youtu.be/f7nTjSlCefk?si=X1mwMzt0o9GV61RI",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rvb03i/i_made_this_song_for_when_youre_going_through_a/",
+          "date": "2026-03-16",
+          "title": "I made this song for when you’re going through a difficult time (Strength - Archers Road)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/track/3jOaSRGjzws8NNFt6lRvIc?si=3a0eadc6de2d41fe": {
+      "name": "Soft Dreamy Shoegaze From UK",
+      "primary_url": "https://open.spotify.com/track/3jOaSRGjzws8NNFt6lRvIc?si=3a0eadc6de2d41fe",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rv9jf6/soft_dreamy_shoegaze_from_uk/",
+          "date": "2026-03-16",
+          "title": "Soft Dreamy Shoegaze From UK"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/track/7em4eOeanWi4EtLMxgTxSK?si=EJHOAyQTSdSk7JerMjkkoA": {
+      "name": "New release",
+      "primary_url": "https://open.spotify.com/track/7em4eOeanWi4EtLMxgTxSK?si=EJHOAyQTSdSk7JerMjkkoA",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rv8ocy/new_release/",
+          "date": "2026-03-16",
+          "title": "New release"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/61LvqOYbBNQ": {
+      "name": "LNTM LSNR",
+      "primary_url": "https://youtu.be/61LvqOYbBNQ",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rv244k/lntm_lsnr_turn_of_the_century/",
+          "date": "2026-03-16",
+          "title": "LNTM LSNR - turn of the century"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/W86G6Lu3_eE?si=cgGUc1xmuTIRU9K4": {
+      "name": "Pink Mexico",
+      "primary_url": "https://youtu.be/W86G6Lu3_eE?si=cgGUc1xmuTIRU9K4",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1ruziro/pink_mexico_soaked_official_music_video/",
+          "date": "2026-03-16",
+          "title": "Pink Mexico - soaked (official music video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=6dE3G5oy1t0": {
+      "name": "Shoegaze infused Post Punk?",
+      "primary_url": "https://www.youtube.com/watch?v=6dE3G5oy1t0",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rutgc2/shoegaze_infused_post_punk/",
+          "date": "2026-03-16",
+          "title": "Shoegaze infused Post Punk?"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/_b5_SiWYOB0?si=bfkOjlDxerKuxahO": {
+      "name": "Eroica",
+      "primary_url": "https://youtu.be/_b5_SiWYOB0?si=bfkOjlDxerKuxahO",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rupwdx/eroica_apollo_complex_full_album/",
+          "date": "2026-03-16",
+          "title": "Eroica - Apollo Complex (Full Album)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/album/7sn4lMm63HLnXBN2N26F3O?si=eC09IaIhTryi4Kh1BDmRBA": {
+      "name": "New doused ep",
+      "primary_url": "https://open.spotify.com/album/7sn4lMm63HLnXBN2N26F3O?si=eC09IaIhTryi4Kh1BDmRBA",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "seen_count": 8,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1ruggpe/new_doused_ep/",
+          "date": "2026-03-16",
+          "title": "New doused ep"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/album/0fFJBGt8QY2dX8DTLEKGjS?si=JVhHH0kPTd2RuNZ7gk-tsA": {
+      "name": "Cry Forever",
+      "primary_url": "https://open.spotify.com/album/0fFJBGt8QY2dX8DTLEKGjS?si=JVhHH0kPTd2RuNZ7gk-tsA",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rtqe35/cry_forever_single_by_extreme_sports_club/",
+          "date": "2026-03-16",
+          "title": "Cry Forever - Single by Extreme Sports Club"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/track/2rrkxbxYEhAGUfRUgTv6GX?si=HvWAHmQUR92LQveu4h6-lA": {
+      "name": "You heard this yet?",
+      "primary_url": "https://open.spotify.com/track/2rrkxbxYEhAGUfRUgTv6GX?si=HvWAHmQUR92LQveu4h6-lA",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rtj6vv/you_heard_this_yet/",
+          "date": "2026-03-16",
+          "title": "You heard this yet?"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/F3qHBbQBJqs?si=cIT-oohdAxXnCnYz": {
+      "name": "Anthony Menzia",
+      "primary_url": "https://youtu.be/F3qHBbQBJqs?si=cIT-oohdAxXnCnYz",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rtitmm/anthony_menzia_a_mind_is_a_terrible_thing/",
+          "date": "2026-03-16",
+          "title": "Anthony Menzia - A Mind Is a Terrible Thing"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/dqHuevwwCjg?si=X6z3qmjYaYnlKo8W": {
+      "name": "Pink Mexico",
+      "primary_url": "https://youtu.be/dqHuevwwCjg?si=X6z3qmjYaYnlKo8W",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rt817a/pink_mexico_petting_zoo/",
+          "date": "2026-03-16",
+          "title": "Pink Mexico - petting zoo"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/Ob0ydlL6OCk?si=EEMTQloHv6KORuYh": {
+      "name": "SLOW CRUSH",
+      "primary_url": "https://youtu.be/Ob0ydlL6OCk?si=EEMTQloHv6KORuYh",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rt2irs/slow_crush_lull/",
+          "date": "2026-03-16",
+          "title": "SLOW CRUSH - LULL"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/XKSZTa-l7m8?si=gjIsTSPccomf0-Kt": {
+      "name": "Noise-pop meets Twee: Campus Seance",
+      "primary_url": "https://youtu.be/XKSZTa-l7m8?si=gjIsTSPccomf0-Kt",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rsscpy/noisepop_meets_twee_campus_seance_ethans_song/",
+          "date": "2026-03-16",
+          "title": "Noise-pop meets Twee: Campus Seance - Ethan's Song (Crawling Back to Selina)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/track/0Wmg32tiyvk3FEySH4U9qz?si=9CEOX--fS4OTNIy_wsjA1w": {
+      "name": "Still You",
+      "primary_url": "https://open.spotify.com/track/0Wmg32tiyvk3FEySH4U9qz?si=9CEOX--fS4OTNIy_wsjA1w",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "seen_count": 6,
+      "seen_history": [
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-16",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rsrr0h/still_you_halo_ritual/",
+          "date": "2026-03-16",
+          "title": "Still You - Halo Ritual"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/x8Zw0zj-UcI?si=qDwBqnW5vpFfESYH": {
+      "name": "The Cure",
+      "primary_url": "https://youtu.be/x8Zw0zj-UcI?si=qDwBqnW5vpFfESYH",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rw3gxe/the_cure_one_hundred_years_semiofficial_video/",
+          "date": "2026-03-17",
+          "title": "The Cure - One Hundred Years (semi-official video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/A11dNBDkLI4?si=BnW33nLWODX9sC_M": {
+      "name": "Theis Thaws",
+      "primary_url": "https://youtu.be/A11dNBDkLI4?si=BnW33nLWODX9sC_M",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rw2b8c/theis_thaws_fly_to_ceiling_david_holmes_remix/",
+          "date": "2026-03-17",
+          "title": "Theis Thaws  - Fly To Ceiling (David Holmes Remix)  [False Idols]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/a2Yq1oJBuQA?si=gdqBR5Q61R1MB1Sr": {
+      "name": "Chelsea Wolfe",
+      "primary_url": "https://youtu.be/a2Yq1oJBuQA?si=gdqBR5Q61R1MB1Sr",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rw26wg/chelsea_wolfe_unseen_world_official_audio/",
+          "date": "2026-03-17",
+          "title": "Chelsea Wolfe - Unseen World (Official Audio)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/Cps1TWpWesk?si=k-xorBBQ32oWNrz-": {
+      "name": "NNHMN",
+      "primary_url": "https://youtu.be/Cps1TWpWesk?si=k-xorBBQ32oWNrz-",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rw1ol3/nnhmn_your_demon_official_audio/",
+          "date": "2026-03-17",
+          "title": "NNHMN - Your Demon (official audio)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/DiBmDjp8iJc?si=xCK4TG_ArvCd_4_G": {
+      "name": "Lovers Guilt",
+      "primary_url": "https://youtu.be/DiBmDjp8iJc?si=xCK4TG_ArvCd_4_G",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rw1iwt/lovers_guilt_til_i_feel_no_pain_official_music/",
+          "date": "2026-03-17",
+          "title": "Lovers Guilt - Til I Feel No Pain (Official Music Video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://soundcloud.com/dreadcodes/brothel-in-belize-restrain": {
+      "name": "Brothel In Belize",
+      "primary_url": "https://soundcloud.com/dreadcodes/brothel-in-belize-restrain",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rw01c9/brothel_in_belize_restrain_dread_codes_rebuild/",
+          "date": "2026-03-17",
+          "title": "Brothel In Belize - Restrain [Dread Codes Rebuild]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=pSmsTBVGuAA&list=RDpSmsTBVGuAA&start_radio=1": {
+      "name": "Skull Family.  A Field of Flowers",
+      "primary_url": "https://www.youtube.com/watch?v=pSmsTBVGuAA&list=RDpSmsTBVGuAA&start_radio=1",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvxy0g/skull_family_a_field_of_flowers/",
+          "date": "2026-03-17",
+          "title": "Skull Family.  A Field of Flowers"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/TUFN4R2jb30?si=U9ai9Qvx5p4JeYSi": {
+      "name": "♾ filejacker — sleep",
+      "primary_url": "https://youtu.be/TUFN4R2jb30?si=U9ai9Qvx5p4JeYSi",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvquo4/filejacker_sleep/",
+          "date": "2026-03-17",
+          "title": "♾ filejacker — sleep"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/sshrSCwil6Q?si=2O7eex0Ff0ZxMhqM": {
+      "name": "Equinoxious- Control Voltage",
+      "primary_url": "https://youtu.be/sshrSCwil6Q?si=2O7eex0Ff0ZxMhqM",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvqftn/equinoxious_control_voltage/",
+          "date": "2026-03-17",
+          "title": "Equinoxious- Control Voltage"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/8TJ1hb_saQk?si=TYdDOn_sBCKx6wxs": {
+      "name": "PERSON:A",
+      "primary_url": "https://youtu.be/8TJ1hb_saQk?si=TYdDOn_sBCKx6wxs",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1rvq4jg/persona_sentient/",
+          "date": "2026-03-17",
+          "title": "PERSON:A - Sentient"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=ix91JINVJ8M": {
+      "name": "A Place To Bury Strangers",
+      "primary_url": "https://www.youtube.com/watch?v=ix91JINVJ8M",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rwafiz/a_place_to_bury_strangers_where_are_we_now/",
+          "date": "2026-03-17",
+          "title": "A Place To Bury Strangers - Where Are We Now"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/0KVXJwstz1Y?si=iPSqmxv_JmVKIGZg": {
+      "name": "The Horrors",
+      "primary_url": "https://youtu.be/0KVXJwstz1Y?si=iPSqmxv_JmVKIGZg",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rw9ns7/the_horrors_sheena_is_a_parasite/",
+          "date": "2026-03-17",
+          "title": "The Horrors - \"Sheena Is A Parasite\""
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=gqol8qrab5k&list=PL28CF2B8AEC06C3B7&index=14": {
+      "name": "Deity Guns",
+      "primary_url": "https://www.youtube.com/watch?v=gqol8qrab5k&list=PL28CF2B8AEC06C3B7&index=14",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rw4fzf/deity_guns_north_face_1991_post_rock_shoegaze/",
+          "date": "2026-03-17",
+          "title": "Deity Guns - North Face (1991, Post Rock, Shoegaze, Noise)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtube.com/watch?v=hzhddTRNJUA&si=b74w1asnApyrPG_z": {
+      "name": "Wire",
+      "primary_url": "https://youtube.com/watch?v=hzhddTRNJUA&si=b74w1asnApyrPG_z",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rw3yts/wire_23_years_too_late/",
+          "date": "2026-03-17",
+          "title": "Wire - 23 Years Too Late"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=qn7Y3__5MIo": {
+      "name": "Talking Heads",
+      "primary_url": "https://www.youtube.com/watch?v=qn7Y3__5MIo",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvvw2b/talking_heads_no_compassion/",
+          "date": "2026-03-17",
+          "title": "Talking Heads - No Compassion"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/KiDSoT5vy-I?is=Onljwagoqv9m8b7r": {
+      "name": "The Fall",
+      "primary_url": "https://youtu.be/KiDSoT5vy-I?is=Onljwagoqv9m8b7r",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvudku/the_fall_big_new_prinz_1988/",
+          "date": "2026-03-17",
+          "title": "The Fall - Big New Prinz (1988)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/Ydyb87B6TJE?si=b97aCCu4e_2BmbrP": {
+      "name": "Demiurge (music video)",
+      "primary_url": "https://youtu.be/Ydyb87B6TJE?si=b97aCCu4e_2BmbrP",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvqumr/demiurge_music_video/",
+          "date": "2026-03-17",
+          "title": "Demiurge (music video)"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=f44e0y5VPpQ": {
+      "name": "Angst",
+      "primary_url": "https://www.youtube.com/watch?v=f44e0y5VPpQ",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvpyy7/angst_id_rather_sleep_1986_ffo_meat_puppets/",
+          "date": "2026-03-17",
+          "title": "Angst - I'd Rather Sleep (1986) [FFO: Meat Puppets, Violent Femmes, 80s R.E.M.]"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/pZX4dap68_s?si=AX9TC7n4g5Dnpjkt": {
+      "name": "Uzimoto",
+      "primary_url": "https://youtu.be/pZX4dap68_s?si=AX9TC7n4g5Dnpjkt",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:postpunk"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:postpunk",
+          "url": "https://www.reddit.com/r/postpunk/comments/1rvpsnn/uzimoto_hamischak/",
+          "date": "2026-03-17",
+          "title": "Uzimoto - Hamischak"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=DoVxviHgpeU": {
+      "name": "Check this band from Indonesia",
+      "primary_url": "https://www.youtube.com/watch?v=DoVxviHgpeU",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rw4fg2/check_this_band_from_indonesia/",
+          "date": "2026-03-17",
+          "title": "Check this band from Indonesia"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://www.youtube.com/watch?v=qYkeUhxOOW8": {
+      "name": "Les Discrets",
+      "primary_url": "https://www.youtube.com/watch?v=qYkeUhxOOW8",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rw1url/les_discrets_le_mouvement_perpétuel/",
+          "date": "2026-03-17",
+          "title": "Les Discrets - Le mouvement perpétuel"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://open.spotify.com/track/6eSXGY0VZbwykzIgHIbmtG?si=O9drWgqaT2ej1h6IhGHsAg": {
+      "name": "douglasland.v1",
+      "primary_url": "https://open.spotify.com/track/6eSXGY0VZbwykzIgHIbmtG?si=O9drWgqaT2ej1h6IhGHsAg",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rvya8e/douglaslandv1/",
+          "date": "2026-03-17",
+          "title": "douglasland.v1"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtube.com/watch?v=ioGs6ObH6aw&si=UJZRd0jd-FwfX37z": {
+      "name": "Cart Sessions",
+      "primary_url": "https://youtube.com/watch?v=ioGs6ObH6aw&si=UJZRd0jd-FwfX37z",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-17",
+          "source_id": "reddit:shoegaze"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:shoegaze",
+          "url": "https://www.reddit.com/r/shoegaze/comments/1rvue1k/cart_sessions_flatwaves/",
+          "date": "2026-03-17",
+          "title": "Cart Sessions | Flatwaves"
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
     }
   }
 }

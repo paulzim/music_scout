@@ -9,7 +9,7 @@ from typing import List, Tuple
 from enrich import enrich_candidate
 from llm_client import LocalOpenAIClient
 from memory_store import load_memory, save_memory
-from models import CandidateArtist, MemorySnapshot
+from models import CandidateArtist, MemorySnapshot, Evidence, CrawlState
 from ranker import score_candidates
 from shortlist import write_shortlist
 from sources import RedditJSONSource
@@ -76,15 +76,21 @@ def _append_seen_history(rec: dict, source_id: str) -> None:
     rec["seen_history"] = hist
 
 
-def apply_seen_updates(snap: MemorySnapshot, candidates: List[CandidateArtist]) -> Tuple[List[CandidateArtist], int]:
+def apply_seen_updates(
+    snap: MemorySnapshot,
+    candidates: List[CandidateArtist]
+) -> Tuple[List[CandidateArtist], int, List[str]]:
     """
     Splits candidates into:
       - new_candidates: not in registry
       - existing updates: append evidence + update last_seen + increment seen_count
-    Returns (new_candidates, updated_existing_count)
+
+    Returns:
+      (new_candidates, updated_existing_count, updated_ids)
     """
     today = _today()
     updated_existing = 0
+    updated_ids: List[str] = []
     new_candidates: List[CandidateArtist] = []
 
     for c in candidates:
@@ -104,7 +110,7 @@ def apply_seen_updates(snap: MemorySnapshot, candidates: List[CandidateArtist]) 
             prev = 1  # treat the existing record as already "seen" once
         rec["seen_count"] = prev + 1
 
-        # Append a tiny history record (use first evidence source_id if available)
+        # Append seen history
         source_id = (c.evidence[0].source_id if c.evidence else "unknown_source")
         _append_seen_history(rec, source_id)
 
@@ -128,8 +134,9 @@ def apply_seen_updates(snap: MemorySnapshot, candidates: List[CandidateArtist]) 
 
         snap.artist_registry[cid] = rec
         updated_existing += 1
+        updated_ids.append(cid)
 
-    return new_candidates, updated_existing
+    return new_candidates, updated_existing, updated_ids
 
 
 def persist_candidates(
@@ -170,13 +177,19 @@ def persist_candidates(
         snap.artist_registry[c.canonical_id] = record
 
 
-def update_ledger(snap: MemorySnapshot, source_id: str, cursor: str | None, status: str = "ok", notes: str | None = None):
-    snap.crawl_ledger[source_id] = {
-        "last_checked": _now_iso(),
-        "cursor": cursor,
-        "status": status,
-        "notes": notes,
-    }
+def update_ledger(
+    snap: MemorySnapshot,
+    source_id: str,
+    cursor: str | None,
+    status: str = "ok",
+    notes: str | None = None
+):
+    snap.crawl_ledger[source_id] = CrawlState(
+        last_checked=_now_iso(),
+        cursor=cursor,
+        status=status,
+        notes=notes,
+    )
 
 
 def build_sources() -> List:
@@ -231,6 +244,52 @@ def enrich_candidates_with_llm(
     return enriched_map, skipped_ids
 
 
+def build_resurfaced_candidates(snap: MemorySnapshot, updated_ids: List[str]) -> List[CandidateArtist]:
+    """
+    Build CandidateArtist objects from existing registry entries updated this run,
+    so we can write a useful shortlist even when there are no new discoveries.
+    """
+    cands: List[CandidateArtist] = []
+    for cid in updated_ids:
+        rec = snap.artist_registry.get(cid) or {}
+        name = rec.get("name") or "Unknown"
+        primary_url = rec.get("primary_url") or ""
+        notes = rec.get("notes") or ""
+
+        # Reconstruct Evidence objects from stored dicts (last few only)
+        evs: List[Evidence] = []
+        for ev in (rec.get("evidence") or [])[-5:]:
+            try:
+                evs.append(Evidence(
+                    source_id=ev.get("source_id", "unknown"),
+                    url=ev.get("url", ""),
+                    date=ev.get("date", ""),
+                    title=ev.get("title"),
+                ))
+            except Exception:
+                pass
+
+        cands.append(CandidateArtist(
+            name=name,
+            canonical_id=cid,
+            primary_url=primary_url,
+            genres_detected=rec.get("genres_detected") or [],
+            evidence=evs,
+            notes=notes,
+        ))
+
+    # Sort resurfaced by seen_count desc, then last_seen desc
+    def sort_key(c: CandidateArtist):
+        rec = snap.artist_registry.get(c.canonical_id) or {}
+        return (
+            rec.get("seen_count", 0),
+            rec.get("last_seen", ""),
+        )
+
+    cands.sort(key=sort_key, reverse=True)
+    return cands
+
+
 def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
     snap = load_memory(memory_path)
 
@@ -244,8 +303,8 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
         source_id = src.source_id
         cursor = None
         ledger_entry = snap.crawl_ledger.get(source_id)
-        if isinstance(ledger_entry, dict):
-            cursor = ledger_entry.get("cursor")
+        if ledger_entry is not None:
+            cursor = ledger_entry.cursor
 
         try:
             res = src.fetch(snap.user_profile.genres, cursor)
@@ -254,7 +313,8 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
         except Exception as e:
             update_ledger(snap, source_id, cursor, status="error", notes=str(e))
 
-    new_candidates, updated_existing_count = apply_seen_updates(snap, all_candidates)
+    # Update existing entries and collect new ones
+    new_candidates, updated_existing_count, updated_ids = apply_seen_updates(snap, all_candidates)
 
     enriched_map = {}
     skipped_ids: set = set()
@@ -265,10 +325,16 @@ def run(genres: List[str], memory_path: str, output_path: str, top_n: int):
         except Exception as e:
             print(f"[warn] LLM enrichment failed: {e}")
 
-    persist_candidates(snap, new_candidates, enriched_map=enriched_map, skipped_ids=skipped_ids)
+        persist_candidates(snap, new_candidates, enriched_map=enriched_map, skipped_ids=skipped_ids)
+        shortlist_pool = new_candidates
+        shortlist_title = None
+    else:
+        # Fallback: show resurfaced items updated this run
+        shortlist_pool = build_resurfaced_candidates(snap, updated_ids)
+        shortlist_title = "Resurfaced (no new discoveries this run)"
 
-    scored = score_candidates(snap.user_profile, new_candidates)
-    out = write_shortlist(output_path, scored, top_n=top_n)
+    scored = score_candidates(snap.user_profile, shortlist_pool)
+    out = write_shortlist(output_path, scored, top_n=top_n, title_override=shortlist_title)
 
     save_memory(memory_path, snap)
 
