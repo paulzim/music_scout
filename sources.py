@@ -7,7 +7,7 @@ import re
 import time
 from dataclasses import dataclass
 from datetime import datetime
-from typing import List, Optional
+from typing import Any, List, Optional
 from urllib.parse import urlparse, urlunparse
 
 import feedparser
@@ -33,18 +33,27 @@ ALLOWED_MUSIC_DOMAINS = {
 
 # Common Reddit post title noise tags/prefixes
 TITLE_PREFIX_PATTERNS = [
-    r"^\s*\[.*?\]\s*",             # [FRESH], [PREMIERE], etc.
-    r"^\s*\(.*?\)\s*",             # (Official Video), etc.
-    r"^\s*premiere\s*:\s*",        # PREMIERE:
-    r"^\s*exclusive\s*:\s*",       # Exclusive:
-    r"^\s*new\s*:\s*",             # New:
-    r"^\s*video\s*:\s*",           # Video:
+    r"^\s*\[.*?\]\s*",      # [FRESH], [PREMIERE], etc.
+    r"^\s*\(.*?\)\s*",      # (Official Video), etc.
+    r"^\s*premiere\s*:\s*", # PREMIERE:
+    r"^\s*exclusive\s*:\s*",# Exclusive:
+    r"^\s*new\s*:\s*",      # New:
+    r"^\s*video\s*:\s*",    # Video:
 ]
+
+
+def _safe_str(value: Any) -> str:
+    """
+    Coerce loosely-typed feedparser values into a safe string.
+    This keeps runtime behavior simple and makes Pylance happy.
+    """
+    if isinstance(value, str):
+        return value
+    return ""
 
 
 def _strip_title_noise(title: str) -> str:
     t = title.strip()
-    # Remove repeated leading noise
     changed = True
     while changed:
         changed = False
@@ -67,7 +76,6 @@ def _extract_artist_from_title(title: str) -> Optional[str]:
     """
     t = _strip_title_noise(title)
 
-    # Filter obvious non-music/discussion posts
     lower = t.lower()
     non_music_markers = [
         "looking for", "help me find", "help identify", "what is this song",
@@ -77,15 +85,12 @@ def _extract_artist_from_title(title: str) -> Optional[str]:
     if any(m in lower for m in non_music_markers):
         return None
 
-    # Split on separators that often divide artist and track
     for sep in [" – ", " - ", ": ", " | "]:
         if sep in t:
             left = t.split(sep, 1)[0].strip()
-            # Avoid tiny garbage
-            if len(left) >= 2 and len(left) <= 80:
+            if 2 <= len(left) <= 80:
                 return left
 
-    # If no separator, avoid treating whole long title as an artist
     if 2 <= len(t) <= 40:
         return t
 
@@ -114,19 +119,15 @@ def _normalize_url(raw_url: str) -> str:
 
     u = html.unescape(raw_url.strip())
 
-    # Fix relative Reddit paths
     if u.startswith("/"):
         u = "https://www.reddit.com" + u
 
     try:
         p = urlparse(u)
-        # Drop fragment
         p = p._replace(fragment="")
-        # Normalize netloc to lowercase
         netloc = (p.netloc or "").lower()
         p = p._replace(netloc=netloc)
 
-        # Some sources may omit scheme; if so, keep as-is
         if not p.scheme:
             return u
 
@@ -137,14 +138,14 @@ def _normalize_url(raw_url: str) -> str:
 
 def _is_allowed_music_link(url: str) -> bool:
     """
-    Gate candidates to posts that point to a music platform (or a subdomain of one).
+    Gate candidates to posts that point to a music platform
+    (or a subdomain of one).
     """
     if not url:
         return False
     try:
         p = urlparse(url)
         host = (p.netloc or "").lower()
-        # Exact match or subdomain match
         for dom in ALLOWED_MUSIC_DOMAINS:
             if host == dom or host.endswith("." + dom):
                 return True
@@ -193,8 +194,12 @@ class RSSSource(BaseSource):
         cands: List[CandidateArtist] = []
 
         for entry in feed.entries[:50]:
-            link = _normalize_url(entry.get("link") or "")
-            title = (entry.get("title") or "").strip()
+            raw_link = _safe_str(entry.get("link"))
+            raw_title = _safe_str(entry.get("title"))
+
+            link = _normalize_url(raw_link)
+            title = raw_title.strip()
+
             if not title:
                 continue
 
@@ -248,12 +253,12 @@ class RedditJSONSource(BaseSource):
 
         for child in data.get("data", {}).get("children", []):
             post = child.get("data", {})
-            title = (post.get("title") or "").strip()
+            title = _safe_str(post.get("title")).strip()
             if not title:
                 continue
 
-            permalink = _normalize_url("https://www.reddit.com" + (post.get("permalink") or ""))
-            outbound = _normalize_url(post.get("url") or "")
+            permalink = _normalize_url("https://www.reddit.com" + _safe_str(post.get("permalink")))
+            outbound = _normalize_url(_safe_str(post.get("url")))
 
             # Gate: only keep posts with an outbound music-platform link
             # If outbound is just the Reddit permalink (self-post), skip.
