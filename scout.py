@@ -79,7 +79,7 @@ def _append_seen_history(rec: dict, source_id: str) -> None:
 def apply_seen_updates(
     snap: MemorySnapshot,
     candidates: List[CandidateArtist]
-) -> Tuple[List[CandidateArtist], int, List[str]]:
+) -> Tuple[List[CandidateArtist], int, set[str]]:
     """
     Splits candidates into:
       - new_candidates: not in registry
@@ -90,7 +90,7 @@ def apply_seen_updates(
     """
     today = _today()
     updated_existing = 0
-    updated_ids: List[str] = []
+    updated_ids: set[str] = set()
     new_candidates: List[CandidateArtist] = []
 
     for c in candidates:
@@ -134,7 +134,7 @@ def apply_seen_updates(
 
         snap.artist_registry[cid] = rec
         updated_existing += 1
-        updated_ids.append(cid)
+        updated_ids.add(cid)
 
     return new_candidates, updated_existing, updated_ids
 
@@ -244,7 +244,7 @@ def enrich_candidates_with_llm(
     return enriched_map, skipped_ids
 
 
-def build_resurfaced_candidates(snap: MemorySnapshot, updated_ids: List[str]) -> List[CandidateArtist]:
+def build_resurfaced_candidates(snap: MemorySnapshot, updated_ids: set[str]) -> List[CandidateArtist]:
     """
     Build CandidateArtist objects from existing registry entries updated this run,
     so we can write a useful shortlist even when there are no new discoveries.

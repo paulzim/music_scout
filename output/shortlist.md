@@ -2,74 +2,75 @@
 
 Top 10 candidates. Each entry includes provenance.
 
-## 1. BBO   In War There Are Only Losers Against War Edit  (score: 1.40)
+## 1. ILL HUMANS  (score: 1.40)
 
-- Link: https://youtu.be/_Lerkqd5fIA
+- Link: https://youtu.be/GsYthwxcHzM?si=dh2tZD-SrEobJvSn
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:darkwave] 2026-03-16: https://www.reddit.com/r/darkwave/comments/1rujvyt/bbo_in_war_there_are_only_losers_against_war_edit/ — BBO   In War There Are Only Losers Against War Edit | Darkwave Industrial 2026
+  - [reddit:postpunk] 2026-03-24: https://www.reddit.com/r/postpunk/comments/1rzxdzd/ill_humans_lonely_soulmates_la_post_punk_darkwave/ — ILL HUMANS - Lonely Soulmates (LA post punk / darkwave)
+  - [reddit:darkwave] 2026-03-24: https://www.reddit.com/r/darkwave/comments/1rzxcbn/ill_humans_lonely_soulmates/ — ILL HUMANS - Lonely Soulmates
 
-## 2. What if T. Rex was Darkwave?  (score: 1.40)
+## 2. ILL HUMANS  (score: 1.40)
 
-- Link: https://youtube.com/shorts/Sh2aJi-V-TA?si=ZUgiuzwLoSGkWcxg
+- Link: https://youtu.be/GsYthwxcHzM?si=dh2tZD-SrEobJvSn
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:darkwave] 2026-03-16: https://www.reddit.com/r/darkwave/comments/1rtje5c/what_if_t_rex_was_darkwave/ — What if T. Rex was Darkwave?
+  - [reddit:postpunk] 2026-03-24: https://www.reddit.com/r/postpunk/comments/1rzxdzd/ill_humans_lonely_soulmates_la_post_punk_darkwave/ — ILL HUMANS - Lonely Soulmates (LA post punk / darkwave)
+  - [reddit:darkwave] 2026-03-24: https://www.reddit.com/r/darkwave/comments/1rzxcbn/ill_humans_lonely_soulmates/ — ILL HUMANS - Lonely Soulmates
 
-## 3. THE BEAUTY OF GEMINA  (score: 1.40)
+## 3. La Zona Muerta (90s Spanish Darkwave)  (score: 1.40)
 
-- Link: https://youtu.be/tczBMF-mXPo?si=ce2671xOVD03_OuG
+- Link: https://www.youtube.com/watch?v=KEO7Vn1JPaU
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:darkwave] 2026-03-16: https://www.reddit.com/r/darkwave/comments/1rs9j5r/the_beauty_of_gemina_prophecy_darkwave/ — THE BEAUTY OF GEMINA - PROPHECY [Darkwave]
+  - [reddit:darkwave] 2026-03-24: https://www.reddit.com/r/darkwave/comments/1rxbz75/la_zona_muerta_90s_spanish_darkwave/ — La Zona Muerta (90s Spanish Darkwave)
 
-## 4. Post-punk with skank beat?  (score: 1.40)
+## 4. Blur does shoegaze  (score: 1.40)
 
-- Link: https://youtu.be/wuZlb2O-8B4?is=4CaNTTz5wLQywT5I
+- Link: https://youtu.be/oS7_AhcliX0?si=T1BIx_ALj5nVIdWU
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:postpunk] 2026-03-16: https://www.reddit.com/r/postpunk/comments/1ruxvmt/postpunk_with_skank_beat/ — Post-punk with skank beat?
+  - [reddit:shoegaze] 2026-03-24: https://www.reddit.com/r/shoegaze/comments/1s2807t/blur_does_shoegaze/ — Blur does shoegaze
 
-## 5. Soft Dreamy Shoegaze From UK  (score: 1.40)
+## 5. Charlie Butler  (score: 1.40)
 
-- Link: https://open.spotify.com/track/3jOaSRGjzws8NNFt6lRvIc?si=3a0eadc6de2d41fe
+- Link: https://charliebutler1.bandcamp.com/album/last-ride
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:shoegaze] 2026-03-16: https://www.reddit.com/r/shoegaze/comments/1rv9jf6/soft_dreamy_shoegaze_from_uk/ — Soft Dreamy Shoegaze From UK
+  - [reddit:shoegaze] 2026-03-24: https://www.reddit.com/r/shoegaze/comments/1s1mdwt/charlie_butler_last_ride_instrumental_ambient/ — Charlie Butler - Last Ride (instrumental ambient shoegaze)
 
-## 6. Shoegaze infused Post Punk?  (score: 1.40)
+## 6. Burned  (score: 1.20)
 
-- Link: https://www.youtube.com/watch?v=6dE3G5oy1t0
+- Link: https://victoriandarkwave.bandcamp.com/track/burned
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:shoegaze] 2026-03-16: https://www.reddit.com/r/shoegaze/comments/1rutgc2/shoegaze_infused_post_punk/ — Shoegaze infused Post Punk?
+  - [reddit:darkwave] 2026-03-24: https://www.reddit.com/r/darkwave/comments/1s0y6i1/burned_victorian_darkwave/ — Burned | Victorian Darkwave
 
-## 7. Deity Guns  (score: 1.40)
+## 7. 7mint  (score: 1.20)
 
-- Link: https://www.youtube.com/watch?v=gqol8qrab5k&list=PL28CF2B8AEC06C3B7&index=14
+- Link: https://www.youtube.com/watch?v=hPrhHyOA4VM
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:postpunk] 2026-03-17: https://www.reddit.com/r/postpunk/comments/1rw4fzf/deity_guns_north_face_1991_post_rock_shoegaze/ — Deity Guns - North Face (1991, Post Rock, Shoegaze, Noise)
+  - [reddit:shoegaze] 2026-03-24: https://www.reddit.com/r/shoegaze/comments/1s1rqrg/7mint_heatdeath_shoegaze_breakbeats/ — 7mint - Heatdeath [Shoegaze + Breakbeats]
 
-## 8. blood.twin — ᐸFunctionᐳ_disconnect() ;  (score: 0.40)
+## 8. Sexual Purity Live on Strict Tempo  (score: 0.40)
 
-- Link: https://youtu.be/_CRkjTxX1XY
+- Link: https://youtu.be/h-3jsGu_k-8?si=2z_IGcaR1DlXtmkK
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:postpunk] 2026-03-16: https://www.reddit.com/r/postpunk/comments/1rshrvq/bloodtwin_ᐸfunctionᐳ_disconnect/ — blood.twin — ᐸFunctionᐳ_disconnect() ;
-  - [reddit:darkwave] 2026-03-16: https://www.reddit.com/r/darkwave/comments/1rshpes/bloodtwin_ᐸfunctionᐳ_disconnect/ — blood.twin — ᐸFunctionᐳ_disconnect() ;
+  - [reddit:darkwave] 2026-03-24: https://www.reddit.com/r/darkwave/comments/1s1r9ym/sexual_purity_live_on_strict_tempo/ — Sexual Purity Live on Strict Tempo
 
-## 9. Ariadna  (score: 0.40)
+## 9. BRUTAL PINK  (score: 0.40)
 
-- Link: https://youtu.be/Wtg3JpBiPbY?si=5T-9ZLn2SYvM170V
+- Link: https://youtu.be/Ik5OzfsPP68?si=N2Yo241BEHALNAIY
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:darkwave] 2026-03-16: https://www.reddit.com/r/darkwave/comments/1rvofrp/ariadna_ти_і_я/ — Ariadna - Ти і я
+  - [reddit:darkwave] 2026-03-24: https://www.reddit.com/r/darkwave/comments/1s1kk3x/brutal_pink_heartache/ — BRUTAL PINK - Heartache
 
-## 10. PEINE PERDUE  (score: 0.40)
+## 10. The Cold Field  (score: 0.40)
 
-- Link: https://youtu.be/atRXWcmi1Tw?si=_x0yr7LS3d5ebHJ1
+- Link: https://youtu.be/waqKoTimmKU?si=wHKl2kAOQRIS2sD0
 - Notes: From Reddit title heuristic; outbound link gated to music platforms.
 - Found at:
-  - [reddit:darkwave] 2026-03-16: https://www.reddit.com/r/darkwave/comments/1rvo5md/peine_perdue_ombre_trouble/ — PEINE PERDUE - "OMBRE TROUBLE"
+  - [reddit:darkwave] 2026-03-24: https://www.reddit.com/r/darkwave/comments/1s1en8d/the_cold_field_endless_ending/ — The Cold Field - Endless Ending
 
