@@ -17,19 +17,19 @@
   "conversation_summary": "Weekly emerging-artist scouting. DIY/indie focus. Track provenance and avoid repeats.",
   "crawl_ledger": {
     "reddit:darkwave": {
-      "last_checked": "2026-03-24T10:21:49.451688",
+      "last_checked": "2026-03-24T12:42:23.026861",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:postpunk": {
-      "last_checked": "2026-03-24T10:21:50.636430",
+      "last_checked": "2026-03-24T12:42:24.280285",
       "cursor": null,
       "status": "ok",
       "notes": null
     },
     "reddit:shoegaze": {
-      "last_checked": "2026-03-24T10:21:52.069758",
+      "last_checked": "2026-03-24T12:42:25.421034",
       "cursor": null,
       "status": "ok",
       "notes": null
@@ -8470,8 +8470,16 @@
       "primary_url": "https://youtu.be/h-3jsGu_k-8?si=2z_IGcaR1DlXtmkK",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8498,8 +8506,16 @@
       "primary_url": "https://youtu.be/Ik5OzfsPP68?si=N2Yo241BEHALNAIY",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8526,8 +8542,16 @@
       "primary_url": "https://youtu.be/waqKoTimmKU?si=wHKl2kAOQRIS2sD0",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8554,8 +8578,16 @@
       "primary_url": "https://youtu.be/IACAXRp_w0I?si=rdaHktAS2l_ym-k3",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8582,8 +8614,16 @@
       "primary_url": "https://youtu.be/eQcSR-pHSew?si=S3jv2q5s93EpJ9rG",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8610,8 +8650,16 @@
       "primary_url": "https://victoriandarkwave.bandcamp.com/track/burned",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8638,8 +8686,16 @@
       "primary_url": "https://youtu.be/GZ6e7-BslYo?si=rNba3dMl28prcQaq",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8666,8 +8722,16 @@
       "primary_url": "https://open.spotify.com/track/1vHbFf4vScIbvOqdlUTmIU?si=6d806b99e9184089",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8694,8 +8758,16 @@
       "primary_url": "https://youtu.be/LO4COHD1Krg?si=HbyGrsJFmAU4zlHs",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8722,8 +8794,16 @@
       "primary_url": "https://youtu.be/77C3gAV0H9A",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8750,8 +8830,16 @@
       "primary_url": "https://www.youtube.com/watch?v=X0LHxd5buHw",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8778,8 +8866,16 @@
       "primary_url": "https://youtu.be/LY9pN634uTs?si=X4jz7cmRR8AdQBeK",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8806,8 +8902,16 @@
       "primary_url": "https://youtu.be/yndGfM6ry4M?si=sF6E6H_iiHgVHpNx",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8834,8 +8938,24 @@
       "primary_url": "https://youtu.be/GsYthwxcHzM?si=dh2tZD-SrEobJvSn",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 3,
+      "seen_count": 7,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -8872,8 +8992,16 @@
       "primary_url": "https://youtu.be/CA4nsWE7S1U?si=vCDaTPLZprf55DCX",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8900,8 +9028,16 @@
       "primary_url": "https://youtu.be/ox21DF09tek?si=ZjDU0IlOHyAXQmE3",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8928,8 +9064,16 @@
       "primary_url": "https://youtu.be/LtGfmeomvQM?si=TZFZ1vIqzYOONnNN",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8956,8 +9100,16 @@
       "primary_url": "https://open.spotify.com/album/2Ag6AbtmBVGCUl1214PugU",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -8984,8 +9136,16 @@
       "primary_url": "https://youtu.be/rwepEKDrFaM?si=4EgbIPYGeaask3u_",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9012,8 +9172,16 @@
       "primary_url": "https://youtu.be/7b5WptOkRkk?si=8oIeUgJIrGzs00lb",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9040,8 +9208,16 @@
       "primary_url": "https://youtu.be/9uzBQeBOdK8?si=3bI0sZkX9PoPeer6",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9068,8 +9244,16 @@
       "primary_url": "https://youtu.be/QcaIZqIc-6A?si=SM-iBS7-BCQRa-b5",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9096,8 +9280,16 @@
       "primary_url": "https://youtu.be/F3I2aeMNvCI",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9124,8 +9316,16 @@
       "primary_url": "https://youtu.be/Oi5bK8-LMEU?is=cbY9MsaN9jZGfeyl",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9152,8 +9352,16 @@
       "primary_url": "https://youtu.be/VvxzZQTgLXA?si=xfqHHid7w8RSR7WE",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9180,8 +9388,16 @@
       "primary_url": "https://youtu.be/n-wEvzqdDZg?si=SxRfO-bu18X-KVP3",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9208,8 +9424,16 @@
       "primary_url": "https://youtu.be/eJYGz2fEIlg?si=HlDkyTBapHMoYcbw",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9236,8 +9460,16 @@
       "primary_url": "https://youtu.be/EpNxJgUdPH0?si=KcJXPBSvjv7ChwM_",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9264,8 +9496,16 @@
       "primary_url": "https://youtu.be/I1Z7mSDxh9E?si=SCKszNrovpyhEWbC",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9292,8 +9532,16 @@
       "primary_url": "https://youtu.be/L4e2DoLr-a4?si=INjf6Zyewhb5bxwh",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9320,8 +9568,16 @@
       "primary_url": "https://youtu.be/_AV-BBUnV0Q?si=TVb0SmKBOzte6ovM",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9348,8 +9604,16 @@
       "primary_url": "https://youtu.be/38RAD8mODxI?si=SEHoXrZDIb5vx1oA",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9376,8 +9640,16 @@
       "primary_url": "https://youtu.be/12T9AKtPtRI?si=vTKY9qKmFx1s28G9",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9404,8 +9676,16 @@
       "primary_url": "https://youtu.be/nERYQzYre9c?si=Ub-peJbc4uCOUBPH",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9432,8 +9712,16 @@
       "primary_url": "https://youtu.be/5WxQKEc0hhc?si=vZyS6o6C0HP5s3zY",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9460,8 +9748,16 @@
       "primary_url": "https://youtu.be/wNfHBEr4Pck?si=Kv3U_MGqcxqYNLbx",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9488,8 +9784,16 @@
       "primary_url": "https://youtu.be/9tlA0IyKjiI?si=w6PaDvn7vzmixfUt",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:darkwave"
@@ -9544,8 +9848,16 @@
       "primary_url": "https://www.youtube.com/watch?v=7He1soaln-Y",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9572,8 +9884,16 @@
       "primary_url": "https://www.youtube.com/watch?v=xxDv_RTdLQo",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9600,8 +9920,16 @@
       "primary_url": "https://www.youtube.com/watch?v=r7Pk3j2gwSA&list=RDr7Pk3j2gwSA&start_radio=1",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9628,8 +9956,16 @@
       "primary_url": "https://www.youtube.com/watch?v=SaC9htnMBGE",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9656,8 +9992,16 @@
       "primary_url": "https://youtu.be/EqGcn2ZmSjM?si=L_j_qsR5og8vEJQr",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9684,8 +10028,16 @@
       "primary_url": "https://www.youtube.com/watch?v=joY8Qn0dh3M&list=RDEQKvM2mAtbs&index=5",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9712,8 +10064,16 @@
       "primary_url": "https://vacuumnoiserecords.bandcamp.com/track/como-un-tapir",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9740,8 +10100,16 @@
       "primary_url": "https://www.youtube.com/watch?v=i5Qy4f1dwDA",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9768,8 +10136,16 @@
       "primary_url": "https://www.youtube.com/watch?v=4jGxmeeJ1-A",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9796,8 +10172,16 @@
       "primary_url": "https://www.youtube.com/watch?v=on-y9Pv-CJA",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9824,8 +10208,16 @@
       "primary_url": "https://www.youtube.com/watch?v=Gfwh-MwzxJ8&list=RDMMgGcX5crB9C8&index=24",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9852,8 +10244,16 @@
       "primary_url": "https://www.youtube.com/shorts/FUQeQ45Oun8",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9880,8 +10280,16 @@
       "primary_url": "https://www.youtube.com/watch?v=2u9oHqi7GQY",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9908,8 +10316,16 @@
       "primary_url": "https://www.youtube.com/watch?v=cWr6qQ63UMo",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9936,8 +10352,16 @@
       "primary_url": "https://youtu.be/K5H1nEP2wXA?si=PtOtGExHhxF-Typh",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9964,8 +10388,16 @@
       "primary_url": "https://youtube.com/watch?v=3Ga6JHxDE-I&si=MjdW4zsZKaaM7nA7",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -9992,8 +10424,16 @@
       "primary_url": "https://youtu.be/rnr95fuXbAk?si=opbXFKTFGxCxGzvl",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10020,8 +10460,16 @@
       "primary_url": "https://www.youtube.com/watch?v=zJB628tWEHk",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10048,8 +10496,16 @@
       "primary_url": "https://youtu.be/peFAHtOWFAM?si=cR0GlxyjXYtL8ZxF",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10076,8 +10532,16 @@
       "primary_url": "https://www.youtube.com/watch?v=Ao4Tav1rJFM",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10104,8 +10568,16 @@
       "primary_url": "https://youtu.be/ZKiL8FGQroU?si=-HRdVTwhpDXvpV_X",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10132,8 +10604,16 @@
       "primary_url": "https://youtu.be/-37UPgnQS1s?si=bSg_zQYTEemCJF2f",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10160,8 +10640,16 @@
       "primary_url": "https://youtu.be/TW-KR7ZRxAY?si=ggTzoW1uV0Ke-tES",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10188,8 +10676,16 @@
       "primary_url": "https://youtu.be/jrEOWjTj2DU?si=NxaAG96YjnQF3Z4b",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10216,8 +10712,16 @@
       "primary_url": "https://youtu.be/r1UgN-HY-eI?feature=shared",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10244,8 +10748,16 @@
       "primary_url": "https://youtu.be/TQft5-87hHM?si=JvZGSnlyBlru0WgP",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10272,8 +10784,16 @@
       "primary_url": "https://youtu.be/UIklk1gHbuQ?list=RDUIklk1gHbuQ",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10300,8 +10820,16 @@
       "primary_url": "https://www.youtube.com/watch?v=PUQrcC9IlnA",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:postpunk"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:postpunk"
@@ -10356,8 +10884,16 @@
       "primary_url": "https://open.spotify.com/track/02oVBLYQeQ14k25cQC40H9?si=Xgt0dQkDRJG5QU62B479HA",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10384,8 +10920,16 @@
       "primary_url": "https://youtu.be/oS7_AhcliX0?si=T1BIx_ALj5nVIdWU",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10412,8 +10956,16 @@
       "primary_url": "https://youtube.com/watch?v=_uU5DU7P83E&si=KKJOaQLRSXKTUuXs",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10440,8 +10992,16 @@
       "primary_url": "https://youtu.be/OsCtUuSHLHo?is=pb0N-P68BWn9UgN9",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10468,8 +11028,16 @@
       "primary_url": "https://www.youtube.com/watch?v=hPrhHyOA4VM",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10496,8 +11064,16 @@
       "primary_url": "https://youtu.be/unX1gqI75m8?si=mUDQkV6w4jlDPiho",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10524,8 +11100,16 @@
       "primary_url": "https://youtu.be/EAk1k7e8uNo?si=JxQfZ9m8urNfNmHf",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10552,8 +11136,16 @@
       "primary_url": "https://youtu.be/AAbzXe8Prjk",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10580,8 +11172,16 @@
       "primary_url": "https://charliebutler1.bandcamp.com/album/last-ride",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10608,8 +11208,16 @@
       "primary_url": "https://youtu.be/AEXLBEmmDgQ?si=ETdmIpxFyy0Qe4ur",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10636,8 +11244,16 @@
       "primary_url": "https://youtube.com/watch?v=CUEhqH-Fjcw&si=-O1exlq49NO4R3nZ",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10664,8 +11280,16 @@
       "primary_url": "https://vacuumnoiserecords.bandcamp.com/track/--32",
       "first_seen": "2026-03-24",
       "last_seen": "2026-03-24",
-      "seen_count": 2,
+      "seen_count": 4,
       "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:shoegaze"
+        },
         {
           "date": "2026-03-24",
           "source_id": "reddit:shoegaze"
@@ -10710,6 +11334,34 @@
           "url": "https://www.reddit.com/r/shoegaze/comments/1s0ljid/teen_drama_sleepaway/",
           "date": "2026-03-24",
           "title": "Teen Drama \"Sleepaway\""
+        }
+      ],
+      "status": "candidate",
+      "notes": "From Reddit title heuristic; outbound link gated to music platforms."
+    },
+    "url|https://youtu.be/yXobWL8tV6s?si=bnNtI1Z-QploDWHw": {
+      "name": "F#CK ANAL LUV",
+      "primary_url": "https://youtu.be/yXobWL8tV6s?si=bnNtI1Z-QploDWHw",
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "seen_count": 2,
+      "seen_history": [
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        },
+        {
+          "date": "2026-03-24",
+          "source_id": "reddit:darkwave"
+        }
+      ],
+      "genres_detected": [],
+      "evidence": [
+        {
+          "source_id": "reddit:darkwave",
+          "url": "https://www.reddit.com/r/darkwave/comments/1s2m4iq/fck_anal_luv/",
+          "date": "2026-03-24",
+          "title": "F#CK ANAL LUV"
         }
       ],
       "status": "candidate",
